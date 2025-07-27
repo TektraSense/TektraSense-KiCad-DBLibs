@@ -1,4 +1,4 @@
-![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Status](https://img.shields.io/badge/status-work_in_progress-yellow)
 
 # TektraSense KiCad Database Libraries
 
