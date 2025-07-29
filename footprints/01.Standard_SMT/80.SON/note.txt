@@ -1,0 +1,16 @@
+-----------------------------------------------------------------------------	
+Manufacturer: TPS63001 (TPS63001DRCR)
+Part Number: Texas Instruments
+Case/Package: 10-VFDFN Exposed Pad (10-VSON (3x3))
+	LGA12SP50_4X4_200X200L28X28	
+-----------------------------------------------------------------------------		
+Manufacturer: BQ27411-G1
+Part Number: Texas Instruments
+Case/Package: 12-VFDFN Exposed Pad (12-SON (2.5x4))
+	LGA12SP50_4X4_200X200L28X28	
+-----------------------------------------------------------------------------
+Manufacturer: TPS63021DSJR
+Part Number: Texas Instruments
+Case/Package: 14-VFDFN Exposed Pad (14-VSON (4x3))
+	LGA12SP50_4X4_200X200L28X28	
+-----------------------------------------------------------------------------

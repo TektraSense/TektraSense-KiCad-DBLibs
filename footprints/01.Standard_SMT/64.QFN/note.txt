@@ -1,0 +1,27 @@
+-----------------------------------------------------------------------------
+Manufacturer: Texas Instruments
+Part Number: BQ24230RGTR
+Case/Package:16-VFQFN Exposed Pad (16-QFN (3x3))
+	QFN16P50_300X300X100T168X168_HS17D (Refer from Datasheet)
+	QFN16P50_300X300X100T168X168_HS17N (Level B)
+	QFN16P50_300X300X100T168X168_HS17L (Level C)
+-----------------------------------------------------------------------------
+Manufacturer: Texas Instruments
+Part Number: TPA2016D2 (TPA2016D2RTJR)
+Case/Package: 20-WFQFN Exposed Pad (20-QFN (4x4))
+	QFN20P50_400X400X80T270X270_HS-21D (Refer from Datasheet)
+	QFN20P50_400X400X80T270X270_HS-21N (Level B)
+	QFN20P50_400X400X80T270X270_HS-21L (Level C)
+-----------------------------------------------------------------------------
+Manufacturer: SGTL5000 (SGTL5000XNAA3R2)
+Part Number: NXP USA Inc.
+Case/Package: 32-VFQFN Exposed Pad (32-QFN-EP (5x5))
+	QFN32P50_500X500X90T340X340_HS-PADN (Level B)
+	QFN32P50_500X500X90T340X340_HS-PADL (Level C)	
+-----------------------------------------------------------------------------
+Manufacturer: ATSAML21G18B-MUT
+Part Number: Microchip Technology
+Case/Package: 48-VFQFN Exposed Pad (7x7)
+	QFN48P50_700X700X90L40X25T515X515_HS-49N (Level B)
+	QFN48P50_700X700X90L40X25T515X515_HS-49L (Level C)	
+-----------------------------------------------------------------------------	

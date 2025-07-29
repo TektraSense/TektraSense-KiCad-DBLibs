@@ -1,0 +1,114 @@
+﻿-----------------------------------------------------------------------------------------------------------------------------------------
+IPC-7x51 Naming Convention for Connector Land Patterns
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+Libraries     		Component, Category			Land Pattern Name
+(Folder)		(Description)				(Naming Convention)
+-----------------------------------------------------------------------------------------------------------------------------------------
+01.3M .................	3M™ ...................................	3M_Part Number
+02.AGILENT ............	AGILENT™ ..............................	AGILENT_Part Number
+03.AIRBORNE ...........	AIRBORNE™ .............................	AIRBORNE_Part Number
+04.AMPHENOL ...........	AMPHENOL™ .............................	AMPHENOL_Part Number
+05.AVX ................	AVX™ ..................................	AVX_Part Number
+06.BERG ...............	BERG™ .................................	BERG_Part Number
+07.BLOCKMASTER ........	BLOCKMASTER ELECTRONICS™ ..............	BLOCKMASTER_Part Number
+08.CUI-STACK ..........	CUI-STACK™ ............................	CUI-STACK_Part Number
+09.JOHNSON ............	E.F. JOHNSON™ .........................	JOHNSON_Part Number
+10.FCI ................	FCI ELECTRONICS™ ......................	FCI_Part Number
+11.FUJITSU ............	FUJITSU™ ..............................	FUJITSU_Part Number
+12.HIROSE .............	HIROSE™ ...............................	HIROSE_Part Number
+13.ITT ................	ITT CANNON™ ...........................	ITT_Part Number
+14.JALCO ..............	JALCO™ ................................	JALCO_Part Number
+15.JWT ................	JWT™ ..................................	JWT_Part Number
+16.JST ................	JST™ ..................................	JST_Part Number
+17.KEYSTONE ...........	KEYSTONE™ .............................	KEYSTONE_Part Number
+18.KYCON ..............	KYCON™ ................................	KYCON_Part Number
+19.LEMO ...............	LEMO™ .................................	LEMO_Part Number
+20.MILL-MAX ...........	MILL-MAX™ .............................	MILL-MAX_Part Number
+21.MOLEX ..............	MOLEX™ ................................	MOLEX_Part Number
+22.NEUTRIK ............	NEUTRIK™ ..............................	NEUTRIK_Part Number
+23.PHOENIX ............	PHOENIX™ ..............................	PHOENIX_Part Number
+24.PULSE ..............	PULSE™ ................................	PULSE_Part Number
+25.RIA ................	RIA™ ..................................	RIA_Part Number
+26.SAMTEC .............	SAMTEC™ ...............................	SAMTEC_Part Number
+27.SIEMENS ............	SIEMENS™ ..............................	SIEMENS_Part Number
+28.SPEEDTECH ..........	SPEEDTECH™ ............................	SPEEDTECH_Part Number
+29.STEWART ............	STEWART™ ..............................	STEWART_Part Number
+30.SULLINS ............	SULLINS™ ..............................	SULLINS_Part Number
+31.SWITCHCRAFT ........	SWITCHCRAFT™ ..........................	SWITCHCRAFT_Part Number
+32.TYCO ...............	TYCO™ .................................	TYCO_Part Number
+33.YAMAICHI ...........	YAMAICHI™ .............................	YAMAICHI_Part Number
+34.MAC8 ...............	MAC8™ .................................	MAC8 Number
+35.GTK ................	GTK™ ..................................	GTK_Part Number
+36.DEGSON .............	DEGSON™ ...............................	DEGSON_Part Number
+37.HARWIN .............	HARWIN™ ...............................	HARWIN_Part Number
+38.CVILUX .............	CVILUX CORPORATION™ ...................	CVILUX_Part Number
+39.USECONN ............	Useconn Electronic™ ...................	USECONN_Part Number
+40.DINKLE .............	DINKLE™ ...............................	DINKLE_Part Number
+41.KLS ................	KLS ELECTRONIC™ .......................	KLS_Part Number
+42.ALLEN ..............	ALLEN JACKS™ ..........................	ALLEN_Part Number
+43.DEK ................	DEK™ ..................................	DEK_Part Number
+44.APFEL ..............	APFEL™ ................................	APFEL_Part Number
+45.WURTH .............. WURTH™ ................................ WURTH_Part Number
+46.TE ................. TE Connectivity™ ...................... TE_Part Number
+47.JAE ................ JAE Electronics™ ...................... JAE_Part Number
+48.CK ................. C&K™ .................................. CK_Part Number
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+IPC-7351 Land Pattern Naming Convention Notes
+------------------------------------------------------------------------------------------------------------------------------------
+• All dimensions are in Metric Units
+• All Lead Span and Height numbers go two places past the decimal point and “include” trailing Zeros
+• All Lead Span and Body Sizes go two place before the decimal point and “remove” leading Zeros
+• All Chip Component Body Sizes are one place to each side of the decimal point
+• Pitch Values are two places to the right & left of decimal point with no leading Zeros but include trailing zeros
+------------------------------------------------------------------------------------------------------------------------------------
+Naming Convention Special Character Use for Land Patterns
+------------------------------------------------------------------------------------------------------------------------------------
+• The _ (underscore) is the separator between pin Qty in Hidden & Deleted pin components.
+• The – (dash) is used to separate the pin qty.
+• The X (capital letter X) is used instead of the word “by” to separate two numbers such as height X width like “Quad Packages”.
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+IPC-7251B Suffix Naming convention for Land Patterns
+------------------------------------------------------------------------------------------------------------------------------------
+Common SMT Land Pattern to Describe Environment Use (This is the last character in every name)
+Note: This excludes the BGA component family as they only come in the Nominal Environment Condition
+  • M ................. Most Material Condition 	(Level A)
+  • N.................. Nominal Material Condition 	(Level B)
+  • L ................. Least Material Condition 	(Level C)
+------------------------------------------------------------------------------------------------------------------------------------
+Alternate Components that do not follow the JEDEC, EIA or IEC Standard
+  • A.................. Alternate Component (used primarily for SOP & QFP when Component Tolerance or Height is different)
+  • B.................. Second Alternate Component
+  • D.................. Refer from Datasheet
+  • J.................. Refer from NDR (JAPAN)
+------------------------------------------------------------------------------------------------------------------------------------
+Reverse Pin Order
+  • -20RN ............. 20 pin part, Reverse Pin Order, Nominal Environment
+------------------------------------------------------------------------------------------------------------------------------------
+Hidden Pins
+  • -20_24N ........... 20 pin part in a 24 pin package. The pins are numbered 1 – 24 the hidden pins are skipped. The schematic
+symbol displays up to 24 pins.
+------------------------------------------------------------------------------------------------------------------------------------
+Deleted Pins
+  • -24_20N ........... 20 pin part in a 24 pin package. The pins are numbered 1 – 20. The schematic symbol displays 20 pins.
+------------------------------------------------------------------------------------------------------------------------------------
+JEDEC and EIA Standard parts that have several alternate packages
+  • AA, AB, AC . JEDEC or EIA Component Identifier
+------------------------------------------------------------------------------------------------------------------------------------
+GENERAL SUFFIXES
+_HS  .................. HS  = Land Pattern with Heat Sink attachment requiring additional holes or pads
+                              Example: TO254P1055X160_HS-6N
+_BEC .................. BEC = Base, Emitter and Collector (Pin assignments used for three pin Transistors)
+                              Example: SOT95P280X160_BEC-3N
+_SGD .................. SGD = Source, Gate and Drain (Pin assignments used for three pin Transistors)
+                              Example: SOT95P280X160_SGD-3N
+_213 .................. 213 = Alternate pin assignments used for three pin Transistors
+                              Example: SOT95P280X160_213-3N
+_D or J ...............	D   = Refer from Datasheet or Pattern/soldering Recommendation in Datasheet
+                              Example: XCVR_ESP32-C3-MINI-1-N4_D 	
+_J or J ...............	J   = Recommendation from NDR (Japan) or Old PCB Layout from Japan Old Design.
+                              Example: RESC_RK73B1ETTP104J_J 	
+------------------------------------------------------------------------------------------------------------------------------------

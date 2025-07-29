@@ -1,0 +1,107 @@
+-----------------------------------------------------------------------------------------------------------------------------------------
+PCB Matrix Naming Convention for Non-Standard Through-Hole Land Patterns
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+Libraries     		Component, Category							Land Pattern Name
+(Folder)		(Description)								(Naming Convention)
+-----------------------------------------------------------------------------------------------------------------------------------------
+01.AMP ................	Amplifiers ............................................................	AMP_Mfr.’s Part Number 
+02.BAT ................	Batteries .............................................................	BAT_Mfr.’s Part Number 
+03.DIOB ...............	Bridge Rectifiers .....................................................	DIOB_Mfr.’s Part Number 
+04.CONV ...............	Converters ............................................................	CONV_Mfr.’s Part Number 
+05.XTAL ...............	Crystals ..............................................................	XTAL_Mfr.’s Part Number 
+06.FB .................	Ferrite Beads .........................................................	FB_Mfr.’s Part Number 
+07.FIL ................	Filters ...............................................................	FIL_Mfr’s Part Number 
+08.FUSE ...............	Fuses .................................................................	FUSE_Mfr.’s Part Number 
+09.FUSER ..............	Fuses, Resettable .....................................................	FUSER_Mfr.’s Part Number 
+10.HSINK ..............	Heat Sinks ............................................................	HSINK_Mfr.’s Part Number 
+11.IND ................	Inductors .............................................................	IND_Mfr.’s Part Number 
+12.LED ................	LED’s .................................................................	LED_Mfr.’s Part Number 
+13.LCD ................	Liquid Crystal Display ................................................	LCD_Mfr.’s Part Number 
+14.MIC ................	Microphones ...........................................................	MIC_Mfr.’s Part Number 
+15.MOV ................	MOV ...................................................................	MOV_Mfr.’s Part Number 
+16.OPTO ...............	Opto Isolators ........................................................	OPTO_Mfr.’s Part Number 
+17.OSC ................	Oscillators ...........................................................	OSC_Mfr.’s Part Number 
+18.PAD ................	PAD ...................................................................	PAD + Pad Size X Hole Size + H 
+19.PHODET .............	Photo Detectors .......................................................	PHODET_Mfr.’s Part Number 
+20.REG ................	Regulators ............................................................	REG_Mfr.’s Part Number 
+21.RELAY ..............	Relays ................................................................	RELAY_Mfr.’s Part Number 
+22.SHIELD .............	Shield, off the shelf .................................................	SHIELD_Mfr.’s Part Number 
+23.SHIELD .............	Shield, Custom ........................................................	SHIELD + Body Length X Body Width 
+24.SPK ................	Speakers ..............................................................	SPKR_Mfr’s Part Number 
+25.STIF ...............	Stiffners .............................................................	STIF_Mfr’s Part Number 
+26.SW .................	Switches ..............................................................	SW_Mfr.’s Part Number 
+27.THERM ..............	Thermistors ...........................................................	THERM_Mfr.’s Part Number 
+28.XDCR ...............	Transducers (IRDA’s) ..................................................	XDCR_Mfr.’s Part Number 
+29.TVS ................	Transient Voltage Suppressors .........................................	TVS + Mfr.’s Part Number 
+30.TVSP ...............	Transient Voltage Suppressors, Polarized ..............................	TVSP + Mfr.’s Part Number 
+31.TO .................	Transistor Outlines (JEDEC Standard Package) ..........................	TO- JEDEC Number 
+32.TRANS ..............	Transistor Outlines, Custom ...........................................	TRANS_Mfr.’s Part Number 
+33.XFMR ...............	Transformers ..........................................................	XFMR_Mfr.’s Part Number 
+34.TRIM ...............	Trimmers & Potentiometers .............................................	TRIM_Mfr.’s Part Number 
+35.TUNER ..............	Tuners ................................................................	TUNER_Mfr.’s Part Number 
+36.VAR ................	Varistors .............................................................	VAR_Mfr.’s Part Number 
+37.VCO ................	Voltage Controlled Oscillator .........................................	VCO_Mfr.’s Part Number 
+38.VR_TO ..............	Voltage Regulators (JEDEC Standard Package) ...........................	TO- JEDEC Number 
+-----------------------------------------------------------------------------------------------------------------------------------------
+Note: All dimensions are in Metric Units and all numbers go two places past the decimal point
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+IPC-7351 Land Pattern Naming Convention Notes
+------------------------------------------------------------------------------------------------------------------------------------
+• All dimensions are in Metric Units
+• All Lead Span and Height numbers go two places past the decimal point and “include” trailing Zeros
+• All Lead Span and Body Sizes go two place before the decimal point and “remove” leading Zeros
+• All Chip Component Body Sizes are one place to each side of the decimal point
+• Pitch Values are two places to the right & left of decimal point with no leading Zeros but include trailing zeros
+------------------------------------------------------------------------------------------------------------------------------------
+Naming Convention Special Character Use for Land Patterns
+------------------------------------------------------------------------------------------------------------------------------------
+• The _ (underscore) is the separator between pin Qty in Hidden & Deleted pin components.
+• The – (dash) is used to separate the pin qty.
+• The X (capital letter X) is used instead of the word “by” to separate two numbers such as height X width like “Quad Packages”.
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+IPC-7251B Suffix Naming convention for Land Patterns
+------------------------------------------------------------------------------------------------------------------------------------
+Common SMT Land Pattern to Describe Environment Use (This is the last character in every name)
+Note: This excludes the BGA component family as they only come in the Nominal Environment Condition
+  • M ................. Most Material Condition 	(Level A)
+  • N.................. Nominal Material Condition 	(Level B)
+  • L ................. Least Material Condition 	(Level C)
+------------------------------------------------------------------------------------------------------------------------------------
+Alternate Components that do not follow the JEDEC, EIA or IEC Standard
+  • A.................. Alternate Component (used primarily for SOP & QFP when Component Tolerance or Height is different)
+  • B.................. Second Alternate Component
+  • D.................. Refer from Datasheet
+  • J.................. Refer from NDR (JAPAN)
+------------------------------------------------------------------------------------------------------------------------------------
+Reverse Pin Order
+  • -20RN ............. 20 pin part, Reverse Pin Order, Nominal Environment
+------------------------------------------------------------------------------------------------------------------------------------
+Hidden Pins
+  • -20_24N ........... 20 pin part in a 24 pin package. The pins are numbered 1 – 24 the hidden pins are skipped. The schematic
+symbol displays up to 24 pins.
+------------------------------------------------------------------------------------------------------------------------------------
+Deleted Pins
+  • -24_20N ........... 20 pin part in a 24 pin package. The pins are numbered 1 – 20. The schematic symbol displays 20 pins.
+------------------------------------------------------------------------------------------------------------------------------------
+JEDEC and EIA Standard parts that have several alternate packages
+  • AA, AB, AC . JEDEC or EIA Component Identifier
+------------------------------------------------------------------------------------------------------------------------------------
+GENERAL SUFFIXES
+_HS  .................. HS  = Land Pattern with Heat Sink attachment requiring additional holes or pads
+                              Example: TO254P1055X160_HS-6N
+_BEC .................. BEC = Base, Emitter and Collector (Pin assignments used for three pin Transistors)
+                              Example: SOT95P280X160_BEC-3N
+_SGD .................. SGD = Source, Gate and Drain (Pin assignments used for three pin Transistors)
+                              Example: SOT95P280X160_SGD-3N
+_213 .................. 213 = Alternate pin assignments used for three pin Transistors
+                              Example: SOT95P280X160_213-3N
+_D or J ...............	D   = Refer from Datasheet or Pattern/soldering Recommendation in Datasheet
+                              Example: XCVR_ESP32-C3-MINI-1-N4_D 	
+_J or J ...............	J   = Recommendation from NDR (Japan) or Old PCB Layout from Japan Old Design.
+                              Example: RESC_RK73B1ETTP104J_J 	
+------------------------------------------------------------------------------------------------------------------------------------
+

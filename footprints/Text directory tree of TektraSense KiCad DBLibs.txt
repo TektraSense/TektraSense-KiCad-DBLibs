@@ -1,0 +1,1133 @@
+TektraSense-KiCad-DBLibs/
+└── footprints/
+    ├── 00.ref_docs/
+    │   ├── Footprint Expert Land Pattern Naming Convention.pdf
+    │   ├── Footprint Expert PTH Reference Calculator.xlsx
+    │   ├── Footprint Expert SMD Reference Calculator.xlsx
+    │   ├── Footprint Expert Surface Mount Families.pdf
+    │   ├── Footprint Expert Through-hole Families.pdf
+    │   ├── Footprint Expert Solder Joint Goal Tables.xlsx
+    │   ├── PCB Libraries Component Zero Orientations for CAD Libraries.pdf
+    │   ├── PCB Libraries IPC-7093A BTC QFN Solder Mask Defined Thermal Pad.pdf
+    │   ├── PCB Libraries IPC-7351 Pad Stack Naming Convention.pdf
+    │   ├── PCB Libraries PCB Design Optimization Starts in the CAD Library.pdf
+    │   └── PCB Libraries Polarity Marking Silkscreen Legend.pdf
+    ├── 01.Standard_SMT/
+    │   ├── 01.BGA_C-N/
+    │   │   ├── BGA108-99NP40_12X9_493X394X57B36D.kicad_mod
+    │   │   ├── BGA16NP50_4X4_220X220X63B31D.kicad_mod
+    │   │   ├── BGA21-36NP50_6X6_329X302X50B27D.kicad_mod
+    │   │   ├── BGA4NP40_2X2_78X78X38B26D.kicad_mod
+    │   │   ├── BGA57-60NP65_10X6_680X394X128B36D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 02.BGAD_C-N/
+    │   │   └── note.txt
+    │   ├── 03.BGAS_C-N/
+    │   │   └── note.txt
+    │   ├── 04.CAPCAV/
+    │   │   └── note.txt
+    │   ├── 05.CAPCAF/
+    │   │   └── note.txt
+    │   ├── 06.CAPC/
+    │   │   ├── CAPC100X50X50L25J.kicad_mod
+    │   │   ├── CAPC100X50X50L25L.kicad_mod
+    │   │   ├── CAPC100X50X50L35L.kicad_mod
+    │   │   ├── CAPC100X50X55L25L.kicad_mod
+    │   │   ├── CAPC100X50X55L25M.kicad_mod
+    │   │   ├── CAPC100X50X55L25N.kicad_mod
+    │   │   ├── CAPC100X50X70L25J.kicad_mod
+    │   │   ├── CAPC100X50X70L25L.kicad_mod
+    │   │   ├── CAPC160X80X100L35L.kicad_mod
+    │   │   ├── CAPC160X80X100L38L.kicad_mod
+    │   │   ├── CAPC160X80X100L38M.kicad_mod
+    │   │   ├── CAPC160X80X100L38N.kicad_mod
+    │   │   ├── CAPC160X80X80L35J.kicad_mod
+    │   │   ├── CAPC160X80X80L40J.kicad_mod
+    │   │   ├── CAPC160X80X80L55L.kicad_mod
+    │   │   ├── CAPC160X80X87L35L.kicad_mod
+    │   │   ├── CAPC160X80X87L35M.kicad_mod
+    │   │   ├── CAPC160X80X87L35N.kicad_mod
+    │   │   ├── CAPC160X80X90L35J.kicad_mod
+    │   │   ├── CAPC160X80X90L35L.kicad_mod
+    │   │   ├── CAPC160X80X90L35M.kicad_mod
+    │   │   ├── CAPC160X80X90L40L.kicad_mod
+    │   │   ├── CAPC160X80X90L40M.kicad_mod
+    │   │   ├── CAPC160X80X90L40N.kicad_mod
+    │   │   ├── CAPC200X125X125L45L.kicad_mod
+    │   │   ├── CAPC200X125X125L45M.kicad_mod
+    │   │   ├── CAPC200X125X125L45N.kicad_mod
+    │   │   ├── CAPC200X125X140L45L.kicad_mod
+    │   │   ├── CAPC200X125X140L45M.kicad_mod
+    │   │   ├── CAPC200X125X140L45N.kicad_mod
+    │   │   ├── CAPC200X125X145L20L.kicad_mod
+    │   │   ├── CAPC200X125X145L20M.kicad_mod
+    │   │   ├── CAPC200X125X145L20N.kicad_mod
+    │   │   ├── CAPC200X125X145L45L.kicad_mod
+    │   │   ├── CAPC200X125X145L45M.kicad_mod
+    │   │   ├── CAPC200X125X145L45N.kicad_mod
+    │   │   ├── CAPC200X125X85L50L.kicad_mod
+    │   │   ├── CAPC200X125X85L50M.kicad_mod
+    │   │   ├── CAPC200X125X85L50N.kicad_mod
+    │   │   ├── CAPC201X125X94L45L.kicad_mod
+    │   │   ├── CAPC201X125X94L45M.kicad_mod
+    │   │   ├── CAPC201X125X94L45N.kicad_mod
+    │   │   ├── CAPC201X125X94L50J.kicad_mod
+    │   │   ├── CAPC320X160X140L50L.kicad_mod
+    │   │   ├── CAPC320X160X140L50M.kicad_mod
+    │   │   ├── CAPC320X160X140L50N.kicad_mod
+    │   │   ├── CAPC320X160X160L50J.kicad_mod
+    │   │   ├── CAPC320X160X160L50L.kicad_mod
+    │   │   ├── CAPC320X160X160L50M.kicad_mod
+    │   │   ├── CAPC320X160X160L50N.kicad_mod
+    │   │   ├── CAPC320X160X160L60L.kicad_mod
+    │   │   ├── CAPC320X160X160L60M.kicad_mod
+    │   │   ├── CAPC320X160X160L60N.kicad_mod
+    │   │   ├── CAPC320X160X180L60L.kicad_mod
+    │   │   ├── CAPC320X160X180L60M.kicad_mod
+    │   │   ├── CAPC320X160X180L60N.kicad_mod
+    │   │   ├── CAPC320X160X88L50L.kicad_mod
+    │   │   ├── CAPC320X160X88L50M.kicad_mod
+    │   │   ├── CAPC320X160X88L50N.kicad_mod
+    │   │   ├── CAPC320X250X250L30L.kicad_mod
+    │   │   ├── CAPC320X250X250L30M.kicad_mod
+    │   │   ├── CAPC320X250X250L30N.kicad_mod
+    │   │   ├── CAPC320X250X250L60J.kicad_mod
+    │   │   ├── CAPC320X250X250L60L.kicad_mod
+    │   │   ├── CAPC320X250X250L60M.kicad_mod
+    │   │   ├── CAPC320X250X250L60N.kicad_mod
+    │   │   ├── CAPC320X250X270L50L.kicad_mod
+    │   │   ├── CAPC320X250X270L50M.kicad_mod
+    │   │   ├── CAPC320X250X270L50N.kicad_mod
+    │   │   ├── CAPC320X250X290L50L.kicad_mod
+    │   │   ├── CAPC320X250X290L50M.kicad_mod
+    │   │   ├── CAPC320X250X290L50N.kicad_mod
+    │   │   ├── CAPC450X200X100L50L.kicad_mod
+    │   │   ├── CAPC450X200X100L50M.kicad_mod
+    │   │   ├── CAPC450X200X100L50N.kicad_mod
+    │   │   ├── CAPC450X200X150L30J.kicad_mod
+    │   │   ├── CAPC450X320X200L50L.kicad_mod
+    │   │   ├── CAPC450X320X200L50M.kicad_mod
+    │   │   ├── CAPC450X320X200L50N.kicad_mod
+    │   │   ├── CAPC559X508X270L60J.kicad_mod
+    │   │   ├── CAPC570X500X200XL30J.kicad_mod
+    │   │   ├── CAPC570X500X250XL20L.kicad_mod
+    │   │   ├── CAPC570X500X250XL20M.kicad_mod
+    │   │   ├── CAPC570X500X250XL20N.kicad_mod
+    │   │   ├── CAPC570X500X270XL60J.kicad_mod
+    │   │   ├── CAPC570X500X280XL20L.kicad_mod
+    │   │   ├── CAPC570X500X280XL20M.kicad_mod
+    │   │   ├── CAPC570X500X280XL20N.kicad_mod
+    │   │   ├── CAPC60X30X30L20L.kicad_mod
+    │   │   ├── CAPC60X30X30L25L.kicad_mod
+    │   │   ├── CAPC60X30X33L15L.kicad_mod
+    │   │   ├── CAPC60X30X35L15L.kicad_mod
+    │   │   ├── CAPC60X30X39L15D.kicad_mod
+    │   │   ├── CAPC60X30X39L15L.kicad_mod
+    │   │   ├── CAPC610X530X500L120L.kicad_mod
+    │   │   ├── CAPC610X530X500L120M.kicad_mod
+    │   │   ├── CAPC610X530X500L120N.kicad_mod
+    │   │   └── note.txt
+    │   ├── 07.CAPCP/
+    │   │   └── note.txt
+    │   ├── 08.CAPDFN/
+    │   │   └── note.txt
+    │   ├── 09.CAPPDFN/
+    │   │   └── note.txt
+    │   ├── 10.CAPM/
+    │   │   └── note.txt
+    │   ├── 11.CAPPM/
+    │   │   ├── CAPPM730X430X280L130X240D_PN.kicad_mod
+    │   │   └── note.txt
+    │   ├── 12.CAPAE/
+    │   │   ├── CAPAE1030X1400L325X90L.kicad_mod
+    │   │   ├── CAPAE1030X1400L325X90M.kicad_mod
+    │   │   ├── CAPAE1030X1400L325X90N.kicad_mod
+    │   │   ├── CAPAE660X590L240X65D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 13.CFP/
+    │   │   └── note.txt
+    │   ├── 14.CGA/
+    │   │   └── note.txt
+    │   ├── 15.PCGA/
+    │   │   └── note.txt
+    │   ├── 16.XTAL/
+    │   │   ├── XTAL700X410X190L260X40D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 17.XTALDFN/
+    │   │   ├── XTALDFN120X100X50L35X89D.kicad_mod
+    │   │   ├── XTALDFN120X100X50L35X89L.kicad_mod
+    │   │   ├── XTALDFN200X120X60L100X50.kicad_mod
+    │   │   ├── XTALDFN200X120X60L100X50D.kicad_mod
+    │   │   ├── XTALDFN205X120X60L100X50D.kicad_mod
+    │   │   ├── XTALDFN320X150X90L60X130D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 18.XTALSC/
+    │   │   ├── XTALSC320X150X90L70D.kicad_mod
+    │   │   ├── XTALSC500X320X130L130D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 19.DIOC/
+    │   │   └── note.txt
+    │   ├── 20.DIODFN/
+    │   │   ├── DIODFN2_60X30X30L24X14D.kicad_mod
+    │   │   ├── DIODFN2_60X30X30L24X14D_X.kicad_mod
+    │   │   └── note.txt
+    │   ├── 21.DIOM/
+    │   │   ├── DIOM500X260X229L60X45D.kicad_mod
+    │   │   ├── DIOM520X261X240L145X114D.kicad_mod
+    │   │   ├── DIOM520X261X240L145X114L.kicad_mod
+    │   │   ├── DIOM528X279X229L152X165D.kicad_mod
+    │   │   ├── DIOM528X279X229L152X165L.kicad_mod
+    │   │   ├── DIOM559X292X244L162X152D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 22.DIONC/
+    │   │   └── note.txt
+    │   ├── 23.DIONDFN/
+    │   │   ├── DIONDFN2_100X60X38L25X50D.kicad_mod
+    │   │   ├── DIONDFN2_100X60X47L25X50D.kicad_mod
+    │   │   ├── DIONDFN2_100X60X53L25X50D.kicad_mod
+    │   │   ├── DIONDFN2_140X60X30L50D.kicad_mod
+    │   │   ├── DIONDFN2_140X60X30L50L.kicad_mod
+    │   │   ├── DIONDFN2_60X30X30L19X14D.kicad_mod
+    │   │   ├── DIONDFN2_60X30X30L24X14D.kicad_mod
+    │   │   ├── DIONDFN6_145X100X54L31X21D.kicad_mod
+    │   │   ├── DIONDFN6_145X100X54L31X21M.kicad_mod
+    │   │   └── note.txt
+    │   ├── 24.DIONM/
+    │   │   └── note.txt
+    │   ├── 25.DIOMELF/
+    │   │   └── note.txt
+    │   ├── 26.DIOSC/
+    │   │   └── note.txt
+    │   ├── 27.DIOSC4/
+    │   │   └── note.txt
+    │   ├── 28.SODFL/
+    │   │   ├── SODFL100X60X34L19X20D.kicad_mod
+    │   │   ├── SODFL160X80X70L30X30D.kicad_mod
+    │   │   ├── SODFL250X130X100L40X32D.kicad_mod
+    │   │   ├── SODFL250X170X125X90L40X33D.kicad_mod
+    │   │   ├── SODFL250X170X125X90L45X30D.kicad_mod
+    │   │   ├── SODFL520X260X100L198X130D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 29.DIOSOFL/
+    │   │   ├── DIOSOFL3P40_120X50L29X21D_TOSHIBA.kicad_mod
+    │   │   └── note.txt
+    │   ├── 30.DPAK/
+    │   │   ├── DPAK2P230_950X650X150L70X60T650X605_HS-4D.kicad_mod
+    │   │   ├── DPAK3P457_994X241L148X76T584X550D.kicad_mod
+    │   │   ├── DPAK3P458_990X239L159X76T521X546L.kicad_mod
+    │   │   ├── DPAK3P458_990X239L159X76T521X546N.kicad_mod
+    │   │   ├── DPAK3P254_1491X457L226X75D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 31.BEADC/
+    │   │   ├── BEADC100X50X50L25D.kicad_mod
+    │   │   ├── BEADC100X50X50L25L.kicad_mod
+    │   │   ├── BEADC100X50X55L25D.kicad_mod
+    │   │   ├── BEADC100X50X55L25L.kicad_mod
+    │   │   ├── BEADC100X50X55L25M.kicad_mod
+    │   │   ├── BEADC100X50X55L25N.kicad_mod
+    │   │   ├── BEADC160X80X60L40J.kicad_mod
+    │   │   ├── BEADC160X80X75L30D.kicad_mod
+    │   │   ├── BEADC160X80X80L30J.kicad_mod
+    │   │   ├── BEADC160X80X80L40J.kicad_mod
+    │   │   ├── BEADC160X80X95L40L.kicad_mod
+    │   │   ├── BEADC160X80X95L40M.kicad_mod
+    │   │   ├── BEADC160X80X95L40N.kicad_mod
+    │   │   └── note.txt
+    │   ├── 32.FUSC/
+    │   │   └── note.txt
+    │   ├── 33.FUSDFN/
+    │   │   └── note.txt
+    │   ├── 34.FUSM/
+    │   │   └── note.txt
+    │   ├── 35.FUSSC/
+    │   │   ├── FUSSC210X135X58L38D.kicad_mod
+    │   │   ├── FUSSC210X135X58L38L.kicad_mod
+    │   │   └── note.txt
+    │   ├── 36.SOPFL/
+    │   │   └── note.txt
+    │   ├── 37.INDC/
+    │   │   ├── INDC100X50X55L25D.kicad_mod
+    │   │   ├── INDC160X80X100L45L.kicad_mod
+    │   │   ├── INDC160X80X95L30D.kicad_mod
+    │   │   ├── INDC160X80X95L40D.kicad_mod
+    │   │   ├── INDC200X125X140L50D.kicad_mod
+    │   │   ├── INDC200X125X50L50L.kicad_mod
+    │   │   ├── INDC200X160X120L50D.kicad_mod
+    │   │   ├── INDC60X30X30L15L.kicad_mod
+    │   │   └── note.txt
+    │   ├── 38.INDCAV/
+    │   │   └── note.txt
+    │   ├── 39.INDCAF/
+    │   │   └── note.txt
+    │   ├── 40.INDDFN/
+    │   │   ├── INDDFN300X300X120L300X120D.kicad_mod
+    │   │   ├── INDDFN400X400X210L325X82D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 41.INDM/
+    │   │   ├── INDM1000X1000X400L300X230D.kicad_mod
+    │   │   ├── INDM445X406X120L200X76D.kicad_mod
+    │   │   ├── INDM730X680X300L300X160D.kicad_mod
+    │   │   ├── INDM730X730X450L200X130D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 42.INDPM/
+    │   │   ├── INDPM790X730X520L300X160D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 43.INDSC/
+    │   │   └── note.txt
+    │   ├── 44.ICSOFL/
+    │   │   └── note.txt
+    │   ├── 45.LGA_C/
+    │   │   └── note.txt
+    │   ├── 46.LGA_S/
+    │   │   ├── LGA12SP50_4X4_200X200L28X28 - duplicate.kicad_mod
+    │   │   └── note.txt
+    │   ├── 47.LEDC/
+    │   │   ├── LEDC100X50X40L25D.kicad_mod
+    │   │   ├── LEDC100X50X40L25L.kicad_mod
+    │   │   ├── LEDC100X50X40L25M.kicad_mod
+    │   │   ├── LEDC100X50X40L25N.kicad_mod
+    │   │   ├── LEDC100X50X50L25D.kicad_mod
+    │   │   ├── LEDC100X50X50L25L.kicad_mod
+    │   │   ├── LEDC100X50X50L25M.kicad_mod
+    │   │   ├── LEDC100X50X50L25N.kicad_mod
+    │   │   ├── LEDC100X50X50L40D.kicad_mod
+    │   │   ├── LEDC300X200X155L60D.kicad_mod
+    │   │   ├── LEDC300X200X155L60L.kicad_mod
+    │   │   ├── LEDC300X200X155L60M.kicad_mod
+    │   │   ├── LEDC300X200X155L60N.kicad_mod
+    │   │   └── note.txt
+    │   ├── 48.LEDDFN/
+    │   │   └── note.txt
+    │   ├── 49.LEDM/
+    │   │   ├── LEDSC160X80X55L40D_KA_GRN.kicad_mod
+    │   │   └── note.txt
+    │   ├── 50.LEDSC/
+    │   │   ├── LEDSC160X80X55L40D_KA_GRN.kicad_mod
+    │   │   └── note.txt
+    │   ├── 51.LEDSC4/
+    │   │   ├── LEDSC4P85_160X160X70L65X35D_RGB.kicad_mod
+    │   │   └── note.txt
+    │   ├── 52.OSCDFN4/
+    │   │   └── note.txt
+    │   ├── 53.OSCSC/
+    │   │   └── note.txt
+    │   ├── 54.OSCSF/
+    │   │   └── note.txt
+    │   ├── 55.OSCJ/
+    │   │   └── note.txt
+    │   ├── 56.OSCL/
+    │   │   └── note.txt
+    │   ├── 57.OSCCC/
+    │   │   ├── OSCCC200X160X45L65X55D.kicad_mod
+    │   │   ├── OSCCC200X160X45L65X55L.kicad_mod
+    │   │   ├── OSCCC200X160X50L65X55D.kicad_mod
+    │   │   ├── OSCCC200X160X80L50X30D.kicad_mod
+    │   │   ├── OSCCC250X200X50L80X65D.kicad_mod
+    │   │   ├── OSCCC320X150X90L70D.kicad_mod
+    │   │   ├── OSCCC320X250X70L100X80D.kicad_mod
+    │   │   ├── OSCCC320X250X75L100X90D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 58.PLCC/
+    │   │   └── note.txt
+    │   ├── 59.PLCCS/
+    │   │   └── note.txt
+    │   ├── 60.PSON/
+    │   │   ├── PSON6P50_145X100X50L30X20D.kicad_mod
+    │   │   ├── PSON8P40_170X150X60L30X18T100X40D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 61.PQFN/
+    │   │   ├── PQFN14P50_300X250X86L48X25D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 62.QFP/
+    │   │   ├── QFP100P50_1600X1600X160L60X22D.kicad_mod
+    │   │   ├── QFP100P50_1600X1600X160L60X22D_ST.kicad_mod
+    │   │   ├── QFP64P50_1200X1200X160L60X22D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 63.CQFP/
+    │   │   └── note.txt
+    │   ├── 64.QFN/
+    │   │   ├── QFN10P40_180X140X50.kicad_mod
+    │   │   ├── QFN10P40_180X140X50D.kicad_mod
+    │   │   ├── QFN10P50_200X150X55D.kicad_mod
+    │   │   ├── QFN16P40_260X180X55L40X20D.kicad_mod
+    │   │   ├── QFN16P50_300X300X100T168X168_HS-17D.kicad_mod
+    │   │   ├── QFN16P50_300X300X100T168X168_HS-17L.kicad_mod
+    │   │   ├── QFN16P50_300X300X100T168X168_HS-17N.kicad_mod
+    │   │   ├── QFN16P50_300X300X80T110X110_HS-EPD.kicad_mod
+    │   │   ├── QFN16P50_300X300X80T110X110_HS-17D.kicad_mod
+    │   │   ├── QFN16P50_300X300X80T168X168_HS-17D.kicad_mod
+    │   │   ├── QFN16P50_350X250X100L40X24T200X100D.kicad_mod
+    │   │   ├── QFN20P50_400X300X105L40X25D.kicad_mod
+    │   │   ├── QFN20P50_400X400X80T270X270_HS-21D.kicad_mod
+    │   │   ├── QFN20P50_400X400X80T270X270_HS-21L.kicad_mod
+    │   │   ├── QFN20P50_400X400X80T270X270_HS-21N.kicad_mod
+    │   │   ├── QFN24P50_400X400X80L40X24T270X270D.kicad_mod
+    │   │   ├── QFN24P50_400X400X90L40X25T250X250.kicad_mod
+    │   │   ├── QFN24P50_400X400X90L40X25T250X250D.kicad_mod
+    │   │   ├── QFN32P50_500X500X100L40X25T345X345D.kicad_mod
+    │   │   ├── QFN32P50_500X500X90T340X340_HS-PADL.kicad_mod
+    │   │   ├── QFN32P50_500X500X90T340X340_HS-PADN.kicad_mod
+    │   │   ├── QFN48P50_700X700X90L40X25T515X515_HS-49L.kicad_mod
+    │   │   ├── QFN48P50_700X700X90L40X25T515X515_HS-49N.kicad_mod
+    │   │   └── note.txt
+    │   ├── 65.LCC/
+    │   │   └── note.txt
+    │   ├── 66.LCCS/
+    │   │   ├── LCCS50P100_3200X1500X250L100X60_HS-56_57D.kicad_mod
+    │   │   ├── LCCS50P100_3200X1500X250L100X60_HS-56_57L.kicad_mod
+    │   │   ├── LCCS50P100_3200X1500X250L100X60_HS-56_57N.kicad_mod
+    │   │   └── note.txt
+    │   ├── 67.RESC/
+    │   │   ├── RESC100X50X35L25L.kicad_mod
+    │   │   ├── RESC100X50X40L25L.kicad_mod
+    │   │   ├── RESC100X50X40L25M.kicad_mod
+    │   │   ├── RESC100X50X40L25N.kicad_mod
+    │   │   ├── RESC160X80X45L30J.kicad_mod
+    │   │   ├── RESC160X80X55L25L.kicad_mod
+    │   │   ├── RESC160X80X55L25M.kicad_mod
+    │   │   ├── RESC160X80X55L25N.kicad_mod
+    │   │   ├── RESC200X125X50L30J.kicad_mod
+    │   │   ├── RESC200X125X60L50L.kicad_mod
+    │   │   ├── RESC200X125X60L50M.kicad_mod
+    │   │   ├── RESC200X125X60L50N.kicad_mod
+    │   │   ├── RESC200X125X65L50L.kicad_mod
+    │   │   ├── RESC200X125X65L50M.kicad_mod
+    │   │   ├── RESC200X125X65L50N.kicad_mod
+    │   │   ├── RESC200X125X70L40L.kicad_mod
+    │   │   ├── RESC200X125X70L40M.kicad_mod
+    │   │   ├── RESC200X125X70L40N.kicad_mod
+    │   │   ├── RESC200X125X70L50L.kicad_mod
+    │   │   ├── RESC200X125X70L50M.kicad_mod
+    │   │   ├── RESC200X125X70L50N.kicad_mod
+    │   │   ├── RESC200X125X75L50L.kicad_mod
+    │   │   ├── RESC200X125X75L50M.kicad_mod
+    │   │   ├── RESC200X125X75L50N.kicad_mod
+    │   │   ├── RESC205X125X75L60L.kicad_mod
+    │   │   ├── RESC205X125X75L60M.kicad_mod
+    │   │   ├── RESC205X125X75L60N.kicad_mod
+    │   │   ├── RESC320X160X60L40J.kicad_mod
+    │   │   ├── RESC320X160X70L40L.kicad_mod
+    │   │   ├── RESC320X160X70L40M.kicad_mod
+    │   │   ├── RESC320X160X70L40N.kicad_mod
+    │   │   ├── RESC320X160X160L50J.kicad_mod
+    │   │   ├── RESC320X250X70L40L.kicad_mod
+    │   │   ├── RESC320X250X70L40M.kicad_mod
+    │   │   ├── RESC320X250X70L40N.kicad_mod
+    │   │   ├── RESC320X260X60L40J.kicad_mod
+    │   │   ├── RESC320X260X60L40L.kicad_mod
+    │   │   ├── RESC320X260X60L40M.kicad_mod
+    │   │   ├── RESC320X260X60L40N.kicad_mod
+    │   │   ├── RESC60X30X23L15L.kicad_mod
+    │   │   ├── RESC60X30X26L15L.kicad_mod
+    │   │   ├── RESC630X310X60L40J.kicad_mod
+    │   │   ├── RESC640X320X70L90D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 68.RESCAV/
+    │   │   └── note.txt
+    │   ├── 69.RESCAXE/
+    │   │   └── note.txt
+    │   ├── 70.RESCAXS/
+    │   │   ├── RESCAXS8P80_320X160X50L55X45D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 71.RESCAF/
+    │   │   └── note.txt
+    │   ├── 72.RESDFN/
+    │   │   └── note.txt
+    │   ├── 73.RESMELF/
+    │   │   ├── RESMELF360X140L75D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 74.RESM/
+    │   │   └── note.txt
+    │   ├── 75.RESSC/
+    │   │   └── note.txt
+    │   ├── 76.SOJ/
+    │   │   └── note.txt
+    │   ├── 78.SOIC/
+    │   │   ├── SOIC16P127_1030X1030X265L84X41D.kicad_mod
+    │   │   ├── SOIC8P127_490X600X100L65X42T65X42D.kicad_mod
+    │   │   ├── SOIC8P127_490X600X170L84X41T310X240D.kicad_mod
+    │   │   ├── SOIC8P127_490X600X170L84X41T310X240L.kicad_mod
+    │   │   ├── SOIC8P127_490X600X175L70X30D.kicad_mod
+    │   │   ├── SOIC8P127_490X600X175L84X41D.kicad_mod
+    │   │   ├── SOIC8P127_530X787X213L62X42D.kicad_mod
+    │   │   ├── SOIC8P127_530X790X200L65X42D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 79.SOP/
+    │   │   ├── SOP10P50_300X490X110L55X20D.kicad_mod
+    │   │   ├── SOP14P65_440X640X120L63X25D.kicad_mod
+    │   │   ├── SOP16P64_490X600X175L65X25D.kicad_mod
+    │   │   ├── SOP16P65_500X640X120L63X25D.kicad_mod
+    │   │   ├── SOP16P65_650X820X200L95X38L.kicad_mod
+    │   │   ├── SOP16P_650X820X200L95X38D.kicad_mod
+    │   │   ├── SOP16P_650X820X200L95X38L.kicad_mod
+    │   │   ├── SOP16P50_300X490X110L53X22-12_16D.kicad_mod
+    │   │   ├── SOP28P65_530X780X200L45X30D.kicad_mod
+    │   │   ├── SOP65P780X200-16N.kicad_mod
+    │   │   ├── SOP8P65_300X490X110L95X32D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 80.SON/
+    │   │   ├── SON10P50_300X300X100T240X165_HS-11D.kicad_mod
+    │   │   ├── SON12P40_400X250X100T245X195_HS-13D.kicad_mod
+    │   │   ├── SON12P50_300X200X75L55X20D.kicad_mod
+    │   │   ├── SON12P50_300X300X80L40X25T250X150D.kicad_mod
+    │   │   ├── SON12P50_400X300X80L40X25T330X170D.kicad_mod
+    │   │   ├── SON14P50_400X300X90T285X158_HS-15D.kicad_mod
+    │   │   ├── SON16P40_320X120X55L25X20T280X30D.kicad_mod
+    │   │   ├── SON4P100_200X200X75L35X35T160X70D.kicad_mod
+    │   │   ├── SON4P65_120X120X80L38X20D.kicad_mod
+    │   │   ├── SON6P50_160X160X60L35X25T126X50D.kicad_mod
+    │   │   ├── SON6P50_200X180X60L25X20T160X100D.kicad_mod
+    │   │   ├── SON6P65_200X200X75L25X30T160X100D.kicad_mod
+    │   │   ├── SON8P127_500X600X60L60X40T400X340L.kicad_mod
+    │   │   ├── SON8P127_500X600X75L60X40T400X340L.kicad_mod
+    │   │   ├── SON8P127_600X500X60L60X40T400X320D.kicad_mod
+    │   │   ├── SON8P127_600X500X95L60X40D.kicad_mod
+    │   │   ├── SON8P127_615X515X110L55X44T43X36D.kicad_mod
+    │   │   ├── SON8P127_800X600X80L50X40T430X340N.kicad_mod
+    │   │   ├── SON8P50_200X200X80L30X25T160X90D.kicad_mod
+    │   │   ├── SON8P50_200X200X85L35X25T120X60D.kicad_mod
+    │   │   ├── SON8P50_300X200X80L30X25T140X140D.kicad_mod
+    │   │   ├── SON8P65_300X300X100L40X30T240X160D.kicad_mod
+    │   │   ├── SON8P65_300X300X100L40X31T175X150D.kicad_mod
+    │   │   ├── SON8P65_300X300X100L40X31T240X165D.kicad_mod
+    │   │   ├── SON8P65_330X330X110L65X34T229X211D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 81.SOD/
+    │   │   ├── SOD100X60X40L19X20D.kicad_mod
+    │   │   ├── SOD250X125X90L08X32D.kicad_mod
+    │   │   ├── SOD365X155X135L57X30D.kicad_mod
+    │   │   ├── SOD365X175X110L95X63D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 82.SOT143/
+    │   │   ├── SOT143-4P190_230X100L30D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 83.SOT343/
+    │   │   └── note.txt
+    │   ├── 84.SOT23/
+    │   │   ├── SOT23-3P65_240X110L46X30D.kicad_mod
+    │   │   ├── SOT23-3P65_240X110L46X30L.kicad_mod
+    │   │   ├── SOT23-3P95_240X125L20D.kicad_mod
+    │   │   ├── SOT23-3P95_240X135X105L20D.kicad_mod
+    │   │   ├── SOT23-3P95_249X100L50D.kicad_mod
+    │   │   ├── SOT23-3P95_264X115L55X51D.kicad_mod
+    │   │   ├── SOT23-3P95_290X130L43D.kicad_mod
+    │   │   ├── SOT23-5P65_210X95L20D.kicad_mod
+    │   │   ├── SOT23-5P95_270X120L35D.kicad_mod
+    │   │   ├── SOT23-5P95_280X145L55D.kicad_mod
+    │   │   ├── SOT23-5P95_290X160X145L45D.kicad_mod
+    │   │   ├── SOT23-6P95_280X110L55D.kicad_mod
+    │   │   ├── SOT23-6P95_280X120L45D_TI.kicad_mod
+    │   │   ├── SOT23-6P95_280X160X145L45D.kicad_mod
+    │   │   ├── SOT23-6P95_280X165X100L55X42D.kicad_mod
+    │   │   ├── SOT23-6P95_290X160X145L45D.kicad_mod
+    │   │   ├── SOT23-8P65_280X100L40D.kicad_mod
+    │   │   ├── SOT23-8P65_290X160L40D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 85.SOT223/
+    │   │   └── note.txt
+    │   ├── 86.THRMC/
+    │   │   └── note.txt
+    │   ├── 87.TRXSOFL/
+    │   │   ├── TRXSOFL3P50_170X90L55X36D.kicad_mod
+    │   │   ├── TRXSOFL6P50_160X60L30X20D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 88.TRXDFN/
+    │   │   ├── TRXDFN3_100X60X50L25X15D.kicad_mod
+    │   │   ├── TRXDFN3_100X60X50L25X15L.kicad_mod
+    │   │   ├── TRXDFN3_140X110X50L28X30D.kicad_mod
+    │   │   ├── TRXDFN3_140X110X50L28X30L.kicad_mod
+    │   │   ├── TRXDFN3_80X60X39L20X15D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 89.VARC/
+    │   │   └── note.txt
+    │   ├── 90.SOT363/
+    │   │   └── SOT363-6P65_210X110L30D.kicad_mod
+    │   ├── 91.SOT1226/
+    │   │   └── SOT1226-5P50_80X80X35L22X20T25X25D.kicad_mod
+    │   ├── 92.SOT563/
+    │   │   ├── SOT563-6P50_160X60L20X20D.kicad_mod
+    │   │   └── SOT563-6P50_160X60L20X20D_GDS.kicad_mod
+    │   ├── 93.X2SON/
+    │   │   └── X2SON-4P65_100X100X40L30X28D.kicad_mod
+    │   ├── README - Standard SMT Land Patterns.txt
+    │   ├── Surface Mount Land Pattern Naming Convention.odt
+    │   └── Surface Mount Land Pattern Naming Convention.pdf
+    ├── 02.Non-Standard_SMT/
+    │   ├── 01.AMP/
+    │   │   └── note.txt
+    │   ├── 02.BAT/
+    │   │   └── note.txt
+    │   ├── 03.CAPV/
+    │   │   └── note.txt
+    │   ├── 04.CAPCAV/
+    │   │   └── note.txt
+    │   ├── 05.CAPCAF/
+    │   │   └── note.txt
+    │   ├── 06.CAP/
+    │   │   └── note.txt
+    │   ├── 07.XTAL/
+    │   │   └── note.txt
+    │   ├── 08.DIO/
+    │   │   ├── DIO_PDS760-13_D.kicad_mod
+    │   │   ├── DIO_V8P12-M3_86A.kicad_mod
+    │   │   ├── DIO_V8P12-M3_86A_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 09.DIOB/
+    │   │   └── note.txt
+    │   ├── 10.FB/
+    │   │   └── note.txt
+    │   ├── 11.FID/
+    │   │   └── note.txt
+    │   ├── 12.FIL/
+    │   │   ├── FIL_B39242B8873P810_D.kicad_mod
+    │   │   ├── FIL_LFB182G45SG9A272_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 13.FUSE/
+    │   │   └── note.txt
+    │   ├── 14.FUSER/
+    │   │   └── note.txt
+    │   ├── 15.IND/
+    │   │   ├── IND_744235510_D.kicad_mod
+    │   │   ├── IND_84103C.kicad_mod
+    │   │   ├── IND_AWVF00252012100M00_D.kicad_mod
+    │   │   ├── IND_PA4335.102NLT_D.kicad_mod
+    │   │   ├── IND_SDR0302-100KL.kicad_mod
+    │   │   ├── IND_SRF4532-510Y_D.kicad_mod
+    │   │   ├── IND_SRN3012BTA-1R0M_D.kicad_mod
+    │   │   ├── IND_SRU1063-220Y.kicad_mod
+    │   │   ├── IND_VLS252012CX-1R0M-1_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 16.INDCAV/
+    │   │   └── note.txt
+    │   ├── 17.INDCAF/
+    │   │   └── note.txt
+    │   ├── 18.KEYPAD/
+    │   │   └── note.txt
+    │   ├── 19.LED/
+    │   │   ├── LED_AA4040_K_D.kicad_mod
+    │   │   ├── LED_UHD1110-FKA-CL1A13R3Q1BBQFMF3_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 20.LEDC/
+    │   │   ├── LEDC_SMLVN6RGB1W1.kicad_mod
+    │   │   ├── LEDC_WS2812B.kicad_mod
+    │   │   └── note.txt
+    │   ├── 21.LCD/
+    │   │   └── note.txt
+    │   ├── 22.MIC/
+    │   │   └── note.txt
+    │   ├── 23.OPTO/
+    │   │   ├── OPTO_LTV-817S_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 24.OSC/
+    │   │   └── note.txt
+    │   ├── 25.BQFP/
+    │   │   └── note.txt
+    │   ├── 26.BQFPC/
+    │   │   └── note.txt
+    │   ├── 27.RESCAV/
+    │   │   └── note.txt
+    │   ├── 28.RESCAXE/
+    │   │   └── note.txt
+    │   ├── 29.RESCAXS/
+    │   │   ├── RESCAXS_WSL36373L000FEA-4.kicad_mod
+    │   │   └── note.txt
+    │   ├── 30.RESCAF/
+    │   │   └── note.txt
+    │   ├── 31.RELAY/
+    │   │   └── note.txt
+    │   ├── 32.SPKR/
+    │   │   └── note.txt
+    │   ├── 33.SW/
+    │   │   ├── SW_CHS-01A_D.kicad_mod
+    │   │   ├── SW_D2FC-F-7N(60M)_D.kicad_mod
+    │   │   ├── SW_D2FP-FN2_D.kicad_mod
+    │   │   ├── SW_D2LS-21_D.kicad_mod
+    │   │   ├── SW_KMR243GLFG_D.kicad_mod
+    │   │   ├── SW_NANOT160BP_D.kicad_mod
+    │   │   ├── SW_PTS526SP15SMTR2LFS_D.kicad_mod
+    │   │   ├── SW_PTS815 SJK 250 SMTR LFS_D.kicad_mod
+    │   │   ├── SW_SSSS810701_D.kicad_mod
+    │   │   ├── SW_TD-06XA-Z-TR-ROHS.kicad_mod
+    │   │   ├── SW_TL1105YF160Q.kicad_mod
+    │   │   ├── SW_TS-1181-250G.kicad_mod
+    │   │   ├── SW_USLPT3737AL5TR_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 34.TP/
+    │   │   ├── TP_CP-1.0.kicad_mod
+    │   │   └── note.txt
+    │   ├── 35.TPS/
+    │   │   └── note.txt
+    │   ├── 36.TPR/
+    │   │   └── note.txt
+    │   ├── 37.THERM/
+    │   │   └── note.txt
+    │   ├── 38.XCVR/
+    │   │   ├── XCVR_EC200UEUAB-N05-SNNSA_D.kicad_mod
+    │   │   ├── XCVR_EC200UEUAB-N05-SNNSA_L.kicad_mod
+    │   │   ├── XCVR_EC200UEUAB-N05-SNNSA_M.kicad_mod
+    │   │   ├── XCVR_EC200UEUAB-N05-SNNSA_N.kicad_mod
+    │   │   ├── XCVR_ESP32-C3-MINI-1-N4_D.kicad_mod
+    │   │   ├── XCVR_ESP32-C3-MINI-1U-N4_D.kicad_mod
+    │   │   ├── XCVR_ESP32-S3-WROOM-1_D.kicad_mod
+    │   │   ├── XCVR_ESP32-S3-WROOM-1_HS-EPAD_D.kicad_mod
+    │   │   ├── XCVR_L26-M33_D.kicad_mod
+    │   │   ├── XCVR_L26-M33_L.kicad_mod
+    │   │   ├── XCVR_L26-M33_M.kicad_mod
+    │   │   ├── XCVR_L26-M33_N.kicad_mod
+    │   │   ├── XCVR_LC86GLAMD.kicad_mod
+    │   │   ├── XCVR_YC0002AA.kicad_mod
+    │   │   └── note.txt
+    │   ├── 39.XDCR/
+    │   │   └── note.txt
+    │   ├── 40.TVS/
+    │   │   ├── TVS_PTVS1-086C-H_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 41.TVSP/
+    │   │   └── note.txt
+    │   ├── 42.TRANS/
+    │   │   └── note.txt
+    │   ├── 43.XFMR/
+    │   │   ├── XFMR_750311564_D.kicad_mod
+    │   │   ├── XFMR_SM13100EL.kicad_mod
+    │   │   └── note.txt
+    │   ├── 44.TRIM/
+    │   │   └── note.txt
+    │   ├── 45.TUNER/
+    │   │   └── note.txt
+    │   ├── 46.VAR/
+    │   │   └── note.txt
+    │   ├── 47.VCO/
+    │   │   └── note.txt
+    │   ├── 48.VREG/
+    │   │   ├── VREG_B0505MT-1WR4_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 49.MDL/
+    │   │   └── note.txt
+    │   ├── 50.EVA/
+    │   │   └── note.txt
+    │   ├── 51.BZR/
+    │   │   └── BZR_CPT-9019A-SMT-TR_D.kicad_mod
+    │   ├── 52.ANTC/
+    │   │   ├── ANTC_2450AT18D0100E_D.kicad_mod
+    │   │   └── ANTC_ANT1005LL14R2400A_D.kicad_mod
+    │   ├── 53.JUMP/
+    │   │   └── JUMP2P-250X100_SB.kicad_mod
+    │   ├── 53.AQFN/
+    │   │   └── AQFN50P700X700X85_HS-74N.kicad_mod
+    │   └── Non-Standard SMT Land Patterns.txt
+    ├── 03.Through-Hole/
+    │   ├── 01.CAPAD/
+    │   │   └── note.txt
+    │   ├── 02.CAPAR/
+    │   │   └── note.txt
+    │   ├── 03.CAPADV/
+    │   │   └── note.txt
+    │   ├── 04.CAPARV/
+    │   │   └── note.txt
+    │   ├── 05.CAPRD/
+    │   │   └── note.txt
+    │   ├── 06.CAPRR/
+    │   │   └── note.txt
+    │   ├── 07.CAPRB/
+    │   │   ├── CAPRB750W86L1400T830H2050B_O550.kicad_mod
+    │   │   └── note.txt
+    │   ├── 08.CAPPA/
+    │   │   └── note.txt
+    │   ├── 09.CAPPR/
+    │   │   └── note.txt
+    │   ├── 10.DIOAD/
+    │   │   └── note.txt
+    │   ├── 11.DIOADV/
+    │   │   └── note.txt
+    │   ├── 12.DIP/
+    │   │   └── note.txt
+    │   ├── 13.DIPS/
+    │   │   └── note.txt
+    │   ├── 14.HDRV/
+    │   │   └── note.txt
+    │   ├── 15.HDRRA/
+    │   │   └── note.txt
+    │   ├── 16.HDRV/
+    │   │   └── note.txt
+    │   ├── 17.INDAD/
+    │   │   └── note.txt
+    │   ├── 18.INDADV/
+    │   │   └── note.txt
+    │   ├── 19.JUMP/
+    │   │   └── note.txt
+    │   ├── 20.MTG_NP_V_ANSI/
+    │   │   └── note.txt
+    │   ├── 21.MTG_P_METRIC/
+    │   │   └── note.txt
+    │   ├── 22.MTG_P/
+    │   │   └── note.txt
+    │   ├── 23.MTG_NP/
+    │   │   └── note.txt
+    │   ├── 24.PGA/
+    │   │   └── note.txt
+    │   ├── 25.RESAD/
+    │   │   ├── note.txt
+    │   │   ├── RESAD2200W80L1750D650D.kicad_mod
+    │   │   └── RESAD2300W80L1700D1000D.kicad_mod
+    │   ├── 26.RESADV/
+    │   │   └── note.txt
+    │   ├── 27.RESAR/
+    │   │   └── note.txt
+    │   ├── 28.SIP/
+    │   │   └── note.txt
+    │   ├── 29.TP_ROUND/
+    │   │   └── note.txt
+    │   ├── 30.TP_SQUARE/
+    │   │   └── note.txt
+    │   ├── 31.TP_RECT/
+    │   │   └── note.txt
+    │   ├── 32.WIRE/
+    │   │   └── note.txt
+    │   ├── 33.OSC/
+    │   │   └── note.txt
+    │   └── Through-Hole Land Patterns.txt
+    ├── 04.Non-standard_PTH/
+    │   ├── 01.AMP/
+    │   │   └── note.txt
+    │   ├── 02.BAT/
+    │   │   └── note.txt
+    │   ├── 03.DIOB/
+    │   │   └── note.txt
+    │   ├── 04.CONV/
+    │   │   ├── CONV_CRE1S0505S3C.kicad_mod
+    │   │   ├── CONV_IRM-10-5.kicad_mod
+    │   │   ├── CONV_MEV1S0505SC.kicad_mod
+    │   │   └── note.txt
+    │   ├── 05.XTAL/
+    │   │   └── note.txt
+    │   ├── 06.FB/
+    │   │   └── note.txt
+    │   ├── 07.FIL/
+    │   │   └── note.txt
+    │   ├── 08.FUSE/
+    │   │   └── note.txt
+    │   ├── 09.FUSER/
+    │   │   ├── FUSER_0ZRC0185FF1A.kicad_mod
+    │   │   └── note.txt
+    │   ├── 10.HSINK/
+    │   │   └── note.txt
+    │   ├── 11.IND/
+    │   │   └── note.txt
+    │   ├── 12.LED/
+    │   │   ├── LED_L8SR2040_A-PF_KA_RED.kicad_mod
+    │   │   ├── LED_SSF-LXH103SRD_KA_RED.kicad_mod
+    │   │   ├── LED_WP710A10SGD_KA_GREEN.kicad_mod
+    │   │   ├── LED_WP710A10SRD_D_KA_RED.kicad_mod
+    │   │   ├── LED_WP934EW_GD_KA_GREEN.kicad_mod
+    │   │   ├── LED_WP934EW_SRD_KA_RED.kicad_mod
+    │   │   └── note.txt
+    │   ├── 13.LCD/
+    │   │   └── note.txt
+    │   ├── 14.MIC/
+    │   │   └── note.txt
+    │   ├── 15.MOV/
+    │   │   └── note.txt
+    │   ├── 16.OPTO/
+    │   │   └── note.txt
+    │   ├── 17.OSC/
+    │   │   └── note.txt
+    │   ├── 18.PAD/
+    │   │   └── note.txt
+    │   ├── 19.PHODET/
+    │   │   └── note.txt
+    │   ├── 20.REG/
+    │   │   └── note.txt
+    │   ├── 21.RELAY/
+    │   │   └── note.txt
+    │   ├── 22.SHIELD/
+    │   │   └── note.txt
+    │   ├── 23.SPKR/
+    │   │   └── note.txt
+    │   ├── 24.SPK/
+    │   │   └── note.txt
+    │   ├── 25.STIF/
+    │   │   └── note.txt
+    │   ├── 26.SW/
+    │   │   ├── note.txt
+    │   │   ├── SW_1580730000000_D.kicad_mod
+    │   │   ├── SW_D2FC-F-7N(60M)_D.kicad_mod
+    │   │   ├── SW_D2LS-21_D.kicad_mod
+    │   │   ├── SW_TC-0202-X(ROHS).kicad_mod
+    │   │   ├── SW_TC-0204-X(ROHS)_N.kicad_mod
+    │   │   ├── SW_TC-0205-X-ROHS.kicad_mod
+    │   │   ├── SW_TC-0206-X-ROHS.kicad_mod
+    │   │   └── SW_TL1105YF160Q.kicad_mod
+    │   ├── 27.THERM/
+    │   │   └── note.txt
+    │   ├── 28.XDCR/
+    │   │   └── note.txt
+    │   ├── 29.TVS/
+    │   │   └── note.txt
+    │   ├── 30.TVSP/
+    │   │   └── note.txt
+    │   ├── 31.TO/
+    │   │   └── note.txt
+    │   ├── 32.TRANS/
+    │   │   └── note.txt
+    │   ├── 33.XFMR/
+    │   │   └── note.txt
+    │   ├── 34.TRIM/
+    │   │   └── note.txt
+    │   ├── 35.TUNER/
+    │   │   └── note.txt
+    │   ├── 36.VAR/
+    │   │   └── note.txt
+    │   ├── 37.VCO/
+    │   │   └── note.txt
+    │   ├── 38.VR_TO/
+    │   │   └── note.txt
+    │   ├── 39.LP/
+    │   │   ├── LP_515-1304-0125F.kicad_mod
+    │   │   ├── LP_51513040125F.kicad_mod
+    │   │   ├── LP_LPF-C013301S_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 40.PMS/
+    │   │   └── PLANTOWER_PMSA003I-C.kicad_mod
+    │   ├── 41.OPTI/
+    │   │   └── OPTI_PAW3395DM-T6QU_D.kicad_mod
+    │   ├── 42.ENCD/
+    │   │   └── ENCD_E103-11S3-2412-00_D.kicad_mod
+    │   ├── 43.TP/
+    │   │   ├── TP_TP-1.0.kicad_mod
+    │   │   ├── TP_TP100.kicad_mod
+    │   │   └── TP_TPS90.kicad_mod
+    │   └── 44.FUSE_CLIP/
+    │       └── SUN-ELECTRIC_FC-53-11.kicad_mod
+    ├── 05.Connectors/
+    │   ├── 01.3M/
+    │   │   └── note.txt
+    │   ├── 02.AGILENT/
+    │   │   └── note.txt
+    │   ├── 03.AIRBORNE/
+    │   │   └── note.txt
+    │   ├── 04.AMPHENOL/
+    │   │   ├── AMPHENOL_10155435-00011LF_D.kicad_mod
+    │   │   ├── AMPHENOL_12402054M611A.kicad_mod
+    │   │   ├── AMPHENOL_20021311-00010T4LF.kicad_mod
+    │   │   ├── AMPHENOL_67996-406HLF.kicad_mod
+    │   │   ├── AMPHENOL_F31W-1A7H1-11010_D.kicad_mod
+    │   │   ├── AMPHENOL_F31W-1A7H1-11012_D.kicad_mod
+    │   │   ├── AMPHENOL_RJHSE-5080.kicad_mod
+    │   │   ├── AMPHENOL_RJHSE-5380.kicad_mod
+    │   │   ├── AMPHENOL_RJHSE-5381.kicad_mod
+    │   │   └── note.txt
+    │   ├── 05.AVX/
+    │   │   └── note.txt
+    │   ├── 06.BERG/
+    │   │   └── note.txt
+    │   ├── 07.BLOCKMASTER/
+    │   │   └── note.txt
+    │   ├── 08.CUI-STACK/
+    │   │   └── note.txt
+    │   ├── 09.JOHNSON/
+    │   │   └── note.txt
+    │   ├── 10.FCI/
+    │   │   └── note.txt
+    │   ├── 11.FUJITSU/
+    │   │   └── note.txt
+    │   ├── 12.HIROSE/
+    │   │   ├── HIROSE_BM29B-2DP_2-0.35V(53)_D.kicad_mod
+    │   │   ├── HIROSE_BM29B-6DP_2-0.35V(53)_D.kicad_mod
+    │   │   ├── HIROSE_BM29B0.6-2DS_2-0.35V(51)_D.kicad_mod
+    │   │   ├── HIROSE_BM29B0.6-6DS_2-0.35V(51)_D.kicad_mod
+    │   │   ├── HIROSE_DF11-10DS-2DSA(05).kicad_mod
+    │   │   ├── HIROSE_DF11-12DP-2DSA(08).kicad_mod
+    │   │   ├── HIROSE_DF12NB(4.0)-20DP-0.5V(51).kicad_mod
+    │   │   ├── HIROSE_DF12NB-20DS-0.5V(51).kicad_mod
+    │   │   ├── HIROSE_DM3AT-SF-PEJM5_D.kicad_mod
+    │   │   ├── HIROSE_DM3CS-SF_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 13.ITT/
+    │   │   └── note.txt
+    │   ├── 14.JALCO/
+    │   │   └── note.txt
+    │   ├── 15.JWT/
+    │   │   └── note.txt
+    │   ├── 16.JST/
+    │   │   ├── JST_S2B-PH-K-S_D.kicad_mod
+    │   │   ├── JST_S2B-PH-SM4-TB_D.kicad_mod
+    │   │   ├── JST_S3B-PH-K-S_D.kicad_mod
+    │   │   ├── JST_S3B-PH-SM4-TB_D.kicad_mod
+    │   │   ├── JST_S4B-PH-SM4-TB_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 17.KEYSTONE/
+    │   │   └── note.txt
+    │   ├── 18.KYCON/
+    │   │   └── note.txt
+    │   ├── 19.LEMO/
+    │   │   └── note.txt
+    │   ├── 20.MILL-MAX/
+    │   │   └── note.txt
+    │   ├── 21.MOLEX/
+    │   │   ├── MOLEX_0472192001.kicad_mod
+    │   │   ├── MOLEX_0873401024.kicad_mod
+    │   │   ├── MOLEX_5019510450_D.kicad_mod
+    │   │   ├── MOLEX_53398-0367_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 22.NEUTRIK/
+    │   │   └── note.txt
+    │   ├── 23.PHOENIX/
+    │   │   ├── PHOENIX_1984714.kicad_mod
+    │   │   └── note.txt
+    │   ├── 24.PULSE/
+    │   │   └── note.txt
+    │   ├── 25.RIA/
+    │   │   └── note.txt
+    │   ├── 26.SAMTEC/
+    │   │   ├── SAMTEC_MTMM-105-13-G-D-150.kicad_mod
+    │   │   ├── SAMTEC_MTMM-110-13-G-D-150.kicad_mod
+    │   │   └── note.txt
+    │   ├── 27.SIEMENS/
+    │   │   └── note.txt
+    │   ├── 28.SPEEDTECH/
+    │   │   └── note.txt
+    │   ├── 29.STEWART/
+    │   │   └── note.txt
+    │   ├── 30.SULLINS/
+    │   │   ├── SULLINS_PPPC221LFBN-RC.kicad_mod
+    │   │   └── note.txt
+    │   ├── 31.SWITCHCRAFT/
+    │   │   └── note.txt
+    │   ├── 32.TYCO/
+    │   │   └── note.txt
+    │   ├── 33.YAMAICHI/
+    │   │   └── note.txt
+    │   ├── 34.MAC8/
+    │   │   └── note.txt
+    │   ├── 35.GTK/
+    │   │   ├── GTK_100102ST_RH.kicad_mod
+    │   │   ├── GTK_100103ST_RH.kicad_mod
+    │   │   ├── GTK_112502ST_RH.kicad_mod
+    │   │   ├── GTK_112503ST_RH.kicad_mod
+    │   │   ├── GTK_FHDS06G11_RH.kicad_mod
+    │   │   ├── GTK_FHDS10G22-4325.kicad_mod
+    │   │   ├── GTK_FHDS20G22-4325.kicad_mod
+    │   │   ├── GTK_PHDS10G22.kicad_mod
+    │   │   ├── GTK_PHDS20G22.kicad_mod
+    │   │   ├── GTK_PHSS02G10.kicad_mod
+    │   │   ├── GTK_PHSS03G10_RH.kicad_mod
+    │   │   ├── GTK_PHSS04G10_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 36.DEGSON/
+    │   │   ├── DEGSON_15EDGRC-3.5-03P-14-00A(H).kicad_mod
+    │   │   ├── DEGSON_15EDGRC-3.5-04P-14-00AH.kicad_mod
+    │   │   ├── DEGSON_15EDGRC-3.5-06P-14-00AH.kicad_mod
+    │   │   └── note.txt
+    │   ├── 37.HARWIN/
+    │   │   └── note.txt
+    │   ├── 38.CVILUX/
+    │   │   ├── CVILUX_CP3504P1H00-NH.kicad_mod
+    │   │   ├── CVILUX_CP3506P1H00-NH.kicad_mod
+    │   │   ├── CVILUX_CP3508P1H00-NH.kicad_mod
+    │   │   └── note.txt
+    │   ├── 39.USECONN/
+    │   │   └── note.txt
+    │   ├── 40.DINKLE/
+    │   │   └── note.txt
+    │   ├── 41.KLS/
+    │   │   └── note.txt
+    │   ├── 42.ALLEN/
+    │   │   └── note.txt
+    │   ├── 43.DEK/
+    │   │   └── note.txt
+    │   ├── 44.APFEL/
+    │   │   └── note.txt
+    │   ├── 45.WURTH/
+    │   │   ├── WURTH_636101111001_D.kicad_mod
+    │   │   ├── WURTH_691313410004.kicad_mod
+    │   │   └── note.txt
+    │   ├── 46.TE/
+    │   │   ├── note.txt
+    │   │   ├── TE_1-1734248-0_D.kicad_mod
+    │   │   ├── TE_1734248-3_D.kicad_mod
+    │   │   ├── TE_2337019-1_D.kicad_mod
+    │   │   └── TE_6-440054-3.kicad_mod
+    │   ├── 47.JAE/
+    │   │   ├── JAE_DX07B024JJ2R1500_D.kicad_mod
+    │   │   ├── JAE_WP10-P002VA10-R15000_D.kicad_mod
+    │   │   ├── JAE_WP10-S002VA10-R15000_D.kicad_mod
+    │   │   └── note.txt
+    │   ├── 48.CK/
+    │   │   └── note.txt
+    │   ├── 49.GLD/
+    │   │   ├── GLD_BH-25T-GLD_PN.kicad_mod
+    │   │   └── GLD_BS-5_PN.kicad_mod
+    │   ├── 50.HARWIN/
+    │   │   ├── HARWIN_M22-6360542.kicad_mod
+    │   │   ├── HARWIN_M50-3002045.kicad_mod
+    │   │   ├── HARWIN_M50-3902042.kicad_mod
+    │   │   ├── HARWIN_M55-6004042R.kicad_mod
+    │   │   └── HARWIN_M55-7104042R.kicad_mod
+    │   ├── 51.IDEC/
+    │   │   └── IDEC_BP101S-2P_D.kicad_mod
+    │   ├── 52.CUI/
+    │   │   └── CUI_SJ-43516-SMT-TR_D.kicad_mod
+    │   ├── 53.GCT/
+    │   │   ├── GCT_BF050-06-A-B-0400-0300-L-G_D.kicad_mod
+    │   │   ├── GCT_BF050-08-A-B-0400-0300-L-G_D.kicad_mod
+    │   │   ├── GCT_BF050-18-A-B-0400-0300-L-G_D.kicad_mod
+    │   │   ├── GCT_BF050-20-A-B-0400-0300-L-G_D.kicad_mod
+    │   │   ├── GCT_BF100-06-A-C-1-0625-L-C_D.kicad_mod
+    │   │   ├── GCT_BF100-08-A-C-1-0625-L-C_D.kicad_mod
+    │   │   ├── GCT_BF100-18-A-C-1-0625-L-C_D.kicad_mod
+    │   │   ├── GCT_BF100-20-A-C-1-0625-L-C_D.kicad_mod
+    │   │   ├── GCT_SIM8060-6-1-14-00-A_D.kicad_mod
+    │   │   ├── GCT_USB4105-GF-A_D.kicad_mod
+    │   │   └── GCT_USB4210-GF-A.kicad_mod
+    │   ├── 54.IRISO/
+    │   │   └── IRISO_IMSA-13065B-2-40Y900_D.kicad_mod
+    │   ├── 55.ADAM/
+    │   │   ├── ADAM_2PH1-02-UA.kicad_mod
+    │   │   ├── ADAM_2PH1-03-UA.kicad_mod
+    │   │   ├── ADAM_2PH1-04-UA.kicad_mod
+    │   │   └── ADAM_BHR-10-HUA_D.kicad_mod
+    │   ├── 56.MILL-MAX/
+    │   │   └── MILL-MAX_0985-0-15-20-71-14-11-0.kicad_mod
+    │   ├── 57.NELTRON/
+    │   │   ├── NELTRON_2211DI-03G-2900E.kicad_mod
+    │   │   ├── NELTRON_2211DI-05G-2900E.kicad_mod
+    │   │   ├── NELTRON_2211DI-06G-001.kicad_mod
+    │   │   ├── NELTRON_2211DI-06G-2900E.kicad_mod
+    │   │   ├── NELTRON_2211DI-07G-2900E.kicad_mod
+    │   │   ├── NELTRON_2211R-05G-LP.kicad_mod
+    │   │   ├── NELTRON_2211S-05G.kicad_mod
+    │   │   ├── NELTRON_2212S-03G-85.kicad_mod
+    │   │   ├── NELTRON_2212S-05G-85.kicad_mod
+    │   │   ├── NELTRON_2212S-07G-85.kicad_mod
+    │   │   ├── NELTRON_2417SJ-02.kicad_mod
+    │   │   ├── NELTRON_2417SJ-03.kicad_mod
+    │   │   ├── NELTRON_2417SJ-04.kicad_mod
+    │   │   ├── NELTRON_2417SJ-05.kicad_mod
+    │   │   ├── NELTRON_2417SJ-08.kicad_mod
+    │   │   ├── NELTRON_5561R-04.kicad_mod
+    │   │   ├── NELTRON_5561R-06.kicad_mod
+    │   │   └── NELTRON_5561R-08.kicad_mod
+    │   ├── 58.CZX/
+    │   │   ├── CZX_CZX-5-A_FEMALE.kicad_mod
+    │   │   └── CZX_CZX-5-A_MALE.kicad_mod
+    │   ├── 59.STIF/
+    │   │   ├── STIF_FPC-10P50-550X300X30T30.kicad_mod
+    │   │   └── STIF_FPC-12P50-650X300X30T30.kicad_mod
+    │   ├── 60.NDRS/
+    │   │   ├── NDRS_CHARGE2P500_300X300D.kicad_mod
+    │   │   ├── NDRS_PROGRAM_CONN.kicad_mod
+    │   │   └── NDRS_PROG4P254_150X150D.kicad_mod
+    │   ├── 61.HUAIHUASC/
+    │   │   └── HUAIHUASC_PC104-6P.kicad_mod
+    │   └── Connector Land Patterns.txt
+    ├── 06.Electromechanical/
+    │   ├── 01.SPK/
+    │   │   ├── SPK_OWS-142037TA-4.kicad_mod
+    │   │   └── SPK_OWS-142037TA-4_PCB.kicad_mod
+    │   └── 02.HOLDER/
+    │       ├── HOLDER_GA12-N20-1765.kicad_mod
+    │       └── HOLDER_GA12-N20-2040.kicad_mod
+    ├── all_paths_in_footprints.txt
+    ├── LandPatternStructure_Tree.txt
+    ├── list_of_footprints.txt
+    └── Surface Mount Families.kicad_mod

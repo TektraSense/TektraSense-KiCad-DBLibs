@@ -1,0 +1,236 @@
+﻿NDRS_LAND_PATTERNS
+├── 00.ref_docs ...............	Reference Documents, IPC Standard
+├── 01.Standard_SMT ...........	Statdard SMT Land Patterns		
+│   ├─── 01.BGA_C-N ...........	Ball Grid Array’s
+│   ├─── 02.BGAD_C-N ..........	BGA w/Dual Pitch
+│   ├─── 03.BGAS_C-N ..........	BGA w/Staggered Pins
+│   ├─── 04.CAPCAV ............	Capacitors, Chip, Array, Concave
+│   ├─── 05.CAPCAF ............	Capacitors, Chip, Array, Flat
+│   ├─── 06.CAPC ..............	Capacitors, Chip, Non-polarized
+│   ├─── 07.CAPCP .............	Capacitors, Chip, Polarized
+│   ├─── 08.CAPCWR ............	Capacitors, Chip, Wire Rectangle
+│   ├─── 09.CAPM ..............	Capacitors, Molded, Non-polarized
+│   ├─── 10.CAPMP .............	Capacitors, Molded, Polarized
+│   ├─── 11.CAPAE .............	Capacitors, Aluminum Electrolytic
+│   ├─── 12.CFP127P ...........	Ceramic Flat Packages
+│   ├─── 13.CGA ...............	Column Grid Array’s
+│   ├─── 14.XTAL ..............	Crystals (2 leads)
+│   ├─── 15.DFN ...............	Dual Flat No-lead
+│   ├─── 16.DIOC ..............	Diodes, Chip
+│   ├─── 17.DIOM  .............	Diodes, Molded
+│   ├─── 18.DIOMELF ...........	Diodes, MELF
+│   ├─── 19.DIOSC .............	Diodes, Side Concave
+│   ├─── 20.FUSM ..............	Fuses, Molded
+│   ├─── 21.INDC ..............	Inductors, Chip
+│   ├─── 22.INDM ..............	Inductors, Molded
+│   ├─── 23.INDP ..............	Inductors, Precision Wire Wound
+│   ├─── 24.INDCAV ............	Inductors, Chip, Array, Concave
+│   ├─── 25.INDCAF ............	Inductors, Chip, Array, Flat
+│   ├─── 26.LGA_C .............	Land Grid Array, Circular Lead
+│   ├─── 27.LGA_S .............	Land Grid Array, Square Lead
+│   ├─── 28.LGA_R .............	Land Grid Array, Rectangle Lead
+│   ├─── 29.LEDM ..............	LED’s, Molded
+│   ├─── 30.LEDSC .............	LED’s, Side Concave
+│   ├─── 31.OSCSC .............	Oscillators, Side Concave
+│   ├─── 32.OSCJ ..............	Oscillators, J-Lead
+│   ├─── 33.OSCL ..............	Oscillators, L-Bend Lead
+│   ├─── 34.OSCCC .............	Oscillators, Corner Concave
+│   ├─── 35.PLCC ..............	Plastic Leaded Chip Carriers
+│   ├─── 36.PLCCS .............	Plastic Leaded Chip Carrier Sockets Square
+│   ├─── 37.QFP ...............	Quad Flat Packages
+│   ├─── 38.CQFP ..............	Ceramic Quad Flat Packages
+│   ├─── 39.QFN ...............	Quad Flat No-lead
+│   ├─── 40.PQFN ..............	Pull-back Quad Flat No-lead
+│   ├─── 41.LCC ...............	Quad Leadless Ceramic Chip Carriers
+│   ├─── 42.LCCS ..............	Quad Leadless Ceramic Chip Carriers (Pin 1 on Side)
+│   ├─── 43.RESC ..............	Resistors, Chip
+│   ├─── 44.RESM ..............	Resistors, Molded
+│   ├─── 45.RESMELF ...........	Resistors, MELF
+│   ├─── 46.RESCAV ............	Resistors, Chip, Array, Concave	
+│   ├─── 47.RESCAXE ...........	Resistors, Chip, Array, Convex, E-Version (Even Pin Size)
+│   ├─── 48.RESCAXS ...........	Resistors, Chip, Array, Convex, S-Version (Side Pins Diff)
+│   ├─── 49.RESCAF ............	Resistors, Chip, Array, Flat
+│   ├─── 50.SODFL .............	Small Outline Diodes, Flat Lead
+│   ├─── 51.SOJ ...............	Small Outline IC, J-Leaded
+│   ├─── 52.SOIC127P ..........	Small Outline Integrated Circuit, (50 mil Pitch SOIC)
+│   ├─── 53.SOP ...............	Small Outline Packages
+│   ├─── 54.SON ...............	Small Outline No-lead
+│   ├─── 55.PSON ..............	Pull-back Small Outline No-lead
+│   ├─── 56.SOTFL .............	Small Outline Transistors, Flat Lead
+│   ├─── 57.SOD ...............	SOD (Example: SOD3717X135 = JEDEC SOD123)
+│   ├─── 58.SOT89 .............	SOT89 (JEDEC Standard Package)
+│   ├─── 59.SOT143_SOT343 .....	SOT143 & SOT343 (JEDEC Standard Package)
+│   ├─── 60.SOT143R_SOT343R ...	SOT143 & SOT343 Reverse (JEDEC Standard Package)
+│   ├─── 61.SOT ...............	SOT23 & SOT223 Packages (Example: SOT230P700X180-4)
+│   └─── 62.TO ................	TO (Generic DPAK - Example: TO228P970X238-3)
+├── 02.Non-Standard_SMT .......	Non-Standard SMT Land Patterns
+│   ├─── 01.AMP	...............	Amplifiers
+│   ├─── 02.BAT ...............	Batteries
+│   ├─── 03.CAPV ..............	Capacitors, Variable
+│   ├─── 04.CAPCAV ............	Capacitors, Chip, Array, Concave (Pins on 2 or 4 sides)
+│   ├─── 05.CAPCAF ............	Capacitors, Chip, Array, Flat (Pins on 2 sides)
+│   ├─── 06.CAP ...............	Capacitors, Miscellaneous
+│   ├─── 07.XTAL ..............	Crystals
+│   ├─── 08.DIO ...............	Diodes, Miscellaneous
+│   ├─── 09.DIOB ..............	Diodes, Bridge Rectifiers
+│   ├─── 10.FB ................	Ferrite Beads
+│   ├─── 11.FID ...............	Fiducials
+│   ├─── 12.FIL ...............	Filters
+│   ├─── 13.FUSE .............. Fuses
+│   ├─── 14.FUSER .............	Fuse, Resettable
+│   ├─── 15.IND ...............	Inductors, Miscellaneous
+│   ├─── 16.INDCAV ............	Inductors, Chip, Array, Concave (Pins on 2 or 4 sides)
+│   ├─── 17.INDCAF ............	Inductors, Chip, Array, Flat (Pins on 2 sides)
+│   ├─── 18.KEYPAD ............	Keypad
+│   ├─── 19.LED ...............	LEDS
+│   ├─── 20.LEDC ..............	LEDS, Chip
+│   ├─── 21.LCD ...............	Liquid Crystal Display
+│   ├─── 22.MIC ...............	Microphones
+│   ├─── 23.OPTO ..............	Opto Isolators
+│   ├─── 24.OS ...............	Oscillators
+│   ├─── 25.BQFP ..............	Quad Flat Packages w/Bumper Corners, Pin 1 Side
+│   ├─── 26.BQFPC .............	Quad Flat Packages w/Bumper Corners, 1 Center
+│   ├─── 27.RESCAV ............	Resistors, Chip, Array, Concave (Pins on 2 or 4 sides)
+│   ├─── 28.RESCAXE ...........	Resistors, Chip, Array, Convex Type E (Pins on 2 sides)
+│   ├─── 29.RESCAXS ...........	Resistors, Chip, Array, Convex Type S (Pins on 2 sides)
+│   ├─── 30.RESCAF ............	Resistors, Chip, Array, Flat (Pins on 2 sides)
+│   ├─── 31.RELAY .............	Relays
+│   ├─── 32.SPKR ..............	Speakers
+│   ├─── 33.SW ................	Switches
+│   ├─── 34.TP ................	Test Points, Round
+│   ├─── 35.TPS ...............	Test Points, Square
+│   ├─── 36.TPR ...............	Test Points, Rectangle
+│   ├─── 37.THERM .............	Thermistors
+│   ├─── 38.XCVR ..............	Transceivers
+│   ├─── 39.XDCR ..............	Transducers (IRDA’s)
+│   ├─── 40.TVS ...............	Transient Voltage Suppressors
+│   ├─── 41.TVSP ..............	Transient Voltage Suppressors, Polarized
+│   ├─── 42.TRANS .............	Transistor Outlines, Custom
+│   ├─── 43.XFMR ..............	Transformers
+│   ├─── 44.TRIM ..............	Trimmers & Potentiometers
+│   ├─── 45.TUNER .............	Tuners
+│   ├─── 46.VAR ...............	Varistors
+│   ├─── 47.VCO ...............	Voltage Controlled Oscillators
+│   └─── 48.VREG ..............	Voltage Regulators, Custom
+├─── 03.Through-Hole ..........	Through-Hole Land Patterns
+│   ├─── 01.CAPAD .............	Capacitors, Non Polarized Axial Diameter Horizontal Mounting
+│   ├─── 02.CAPAR .............	Capacitors, Non Polarized Axial Rectangular
+│   ├─── 03.CAPADV ............	Capacitors, Non Polarized Axial Diameter Vertical Mounting
+│   ├─── 04.CAPARV ............	Capacitors, Non Polarized Axial Rect. Vert. Mtg.
+│   ├─── 05.CAPRD .............	Capacitors, Non Polarized Radial Diameter
+│   ├─── 06.CAPRR .............	Capacitors, Non Polarized Radial Rectangular
+│   ├─── 07.CAPRB .............	Capacitors, Non Polarized Radial Disk Button
+│   ├─── 08.CAPPA .............	Capacitors, Polarized Axial Diameter Horizontal Mounting
+│   ├─── 09.CAPPR .............	Capacitors, Polarized Radial Diameter
+│   ├─── 10.DIOAD .............	Diodes, Axial Diameter Horizontal Mounting
+│   ├─── 11.DIOADV ............	Diodes, Axial Diameter Vertical Mounting
+│   ├─── 12.DIP ...............	Dual-In-Line Packages
+│   ├─── 13.DIPS ..............	Dual-In-Line Sockets
+│   ├─── 14.HDRV ..............	Headers, Vertical
+│   ├─── 15.HDRRA .............	Headers, Right Angle
+│   ├─── 16.HDRV ..............	Headers, Vertical, Deleted Pins
+│   ├─── 17.INDAD .............	Inductors, Axial Diameter Horizontal Mounting
+│   ├─── 18.INDADV ............	Inductors, Axial Diameter Vertical Mounting
+│   ├─── 19.JUMP ..............	Jumpers, Wire
+│   ├─── 20.MTG_NP_V_ANSI .....	Mounting hole, Non-plated, with Vias
+│   ├─── 21.MTG_P_METRIC ......	Mounting hole, plated
+│   ├─── 22.MTG_P .............	Mounting hole, Plated
+│   ├─── 23.MTG_NP ............	Mounting hole, Non-plated
+│   ├─── 24.PGA ...............	Pin Grid Array’s
+│   ├─── 25.RESAD .............	Resistors, Axial Diameter Horizontal Mounting
+│   ├─── 26.RESADV ............	Resistors, Axial Diameter Vertical Mounting
+│   ├─── 27.RESAR .............	Resistors, Axial Rectangular Horizontal Mounting
+│   ├─── 28.SIP ..............	Single-In-Line Packages
+│   ├─── 29.TP_ROUND ..........	Test Points, Round
+│   ├─── 30.TP_SQUARE .........	Test Points, Square
+│   ├─── 31.TP_RECT ...........	Test Points, Rectangular
+│   ├─── 32.WIRE ..............	Wire
+│   └─── 33.OSC ...............	Oscillators
+├─── 04.Non-standard_PTH ......	Non-Standard Through-Hole Land Patterns
+│   ├─── 01.AMP ...............	Amplifiers
+│   ├─── 02.BAT ...............	Batteries
+│   ├─── 03.DIOB ..............	Bridge Rectifiers
+│   ├─── 04.CONV ..............	Converters
+│   ├─── 05.XTAL ..............	Crystals
+│   ├─── 06.FB ................	Ferrite Beads
+│   ├─── 07.FIL ...............	Filters
+│   ├─── 08.FUSE ..............	Fuses
+│   ├─── 09.FUSER .............	Fuses, Resettable
+│   ├─── 10.HSINK .............	Heat Sinks
+│   ├─── 11.IND ...............	Inductors
+│   ├─── 12.LED ...............	LED’s
+│   ├─── 13.LCD ...............	Liquid Crystal Display
+│   ├─── 14.MIC ...............	Microphones
+│   ├─── 15.MOV ...............	MOV
+│   ├─── 16.OPTO ..............	Opto Isolators
+│   ├─── 17.OSC ...............	Oscillators
+│   ├─── 18.PAD ...............	PAD
+│   ├─── 19.PHODET ............	Photo Detectors
+│   ├─── 20.REG ...............	Regulators
+│   ├─── 21.RELAY .............	Relays
+│   ├─── 22.SHIELD ............	Shield, off the shelf
+│   ├─── 23.SPKR ..............	Shield, Custom
+│   ├─── 24.SPK ...............	Speakers
+│   ├─── 25.STIF ..............	Stiffners
+│   ├─── 26.SW ................	Switches
+│   ├─── 27.THERM .............	Thermistors
+│   ├─── 28.XDCR ..............	Transducers (IRDA’s)
+│   ├─── 29.TVS ...............	Transient Voltage Suppressors
+│   ├─── 30.TVSP ..............	Transient Voltage Suppressors, Polarized
+│   ├─── 31.TO ................	Transistor Outlines (JEDEC Standard Package)
+│   ├─── 32.TRANS .............	Transistor Outlines, Custom
+│   ├─── 33.XFMR ..............	Transformers
+│   ├─── 34.TRIM ..............	Trimmers & Potentiometers
+│   ├─── 35.TUNER .............	Tuners
+│   ├─── 36.VAR ...............	Varistors
+│   ├─── 37.VCO ...............	Voltage Controlled Oscillator
+│   └─── 38.VR_TO .............	Voltage Regulators (JEDEC Standard Package)
+└───05.Connectors .............	Connector Land Patterns
+    ├─── 01.3M ................	3M™
+    ├─── 02.AGILENT ...........	AGILENT™
+    ├─── 03.AIRBORNE ..........	AIRBORNE™
+    ├─── 04.AMPHENOL ..........	AMPHENOL™
+    ├─── 05.AVX ...............	AVX™
+    ├─── 06.BERG ..............	BERG™
+    ├─── 07.BLOCKMASTER .......	BLOCKMASTER ELECTRONICS™
+    ├─── 08.CUI-STACK .........	CUI-STACK™
+    ├─── 09.JOHNSON ...........	E.F. JOHNSON™
+    ├─── 10.FCI ...............	FCI ELECTRONICS™
+    ├─── 11.FUJITSU ...........	FUJITSU™
+    ├─── 12.HIROSE ............	HIROSE™
+    ├─── 13.ITT ...............	ITT CANNON™
+    ├─── 14.JALCO .............	JALCO™
+    ├─── 15.JWT ...............	JWT™
+    ├─── 16.JST ...............	JST™
+    ├─── 17.KEYSTONE ..........	KEYSTONE™
+    ├─── 18.KYCON .............	KYCON™
+    ├─── 19.LEMO ..............	LEMO™
+    ├─── 20.MILL-MAX ..........	MILL-MAX™
+    ├─── 21.MOLEX .............	MOLEX™
+    ├─── 22.NEUTRIK ...........	NEUTRIK™
+    ├─── 23.PHOENIX ...........	PHOENIX™
+    ├─── 24.PULSE .............	PULSE™
+    ├─── 25.RIA ...............	RIA™
+    ├─── 26.SAMTEC ............	SAMTEC™
+    ├─── 27.SIEMENS ...........	SIEMENS™
+    ├─── 28.SPEEDTECH .........	SPEEDTECH™
+    ├─── 29.STEWART ...........	STEWART™
+    ├─── 30.SULLINS ...........	SULLINS™
+    ├─── 31.SWITCHCRAFT .......	SWITCHCRAFT™
+    ├─── 32.TYCO ..............	TYCO™
+    ├─── 33.YAMAICHI ..........	YAMAICHI™
+    ├─── 34.MAC8 ..............	MAC8™
+    ├─── 35.GTK ...............	GTK™
+    ├─── 36.DEGSON ............	DEGSON™
+    ├─── 37.HARWIN ............	HARWIN™
+    ├─── 38.CVILUX ............	CVILUX CORPORATION™
+    ├─── 39.USECONN ...........	Useconn Electronic™
+    ├─── 40.DINKLE ............	DINKLE™
+    ├─── 41.KLS ...............	KLS ELECTRONIC™
+    ├─── 42.ALLEN .............	ALLEN JACKS™
+    ├─── 43.DEK ...............	DEK™
+    ├─── 44.APFEL .............	APFEL™
+    ├─── 45.WURTH ............. WURTH™
+    ├─── 46.TE ................ TE Connectivity™
+    ├─── 47.JAE ............... JAE Electronics™
+    └─── 48.CK ................ C&K™

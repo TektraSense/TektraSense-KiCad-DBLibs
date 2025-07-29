@@ -1,0 +1,25 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "9.0")
+(symbol "R_Network05_Split_2_1"
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "R2.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+)

@@ -1,0 +1,8 @@
+-----------------------------------------------------------------------------	
+Manufacturer: BM83 (BM83SM1-00AA)
+Part Number: Microchip Technology
+Case/Package: 50 Lead RF Module with Shield 32.0x25.0x2.5mm
+	LCCS50P100_3200X1500X250L100X60_HS-56_57D (Refer from Datasheet)
+	LCCS50P100_3200X1500X250L100X60_HS-56_57N (Level B)
+	LCCS50P100_3200X1500X250L100X60_HS-56_57L (Level C)	
+-----------------------------------------------------------------------------	
