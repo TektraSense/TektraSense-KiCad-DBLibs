@@ -1,0 +1,37 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "9.0")
+(symbol "DVI-I_Dual_Link_0_0"
+			(polyline
+				(pts
+					(xy -1.27 22.86) (xy 4.318 22.86) (xy 6.858 21.59) (xy 6.858 -0.254) (xy 4.318 -1.524) (xy -1.27 -1.524)
+					(xy -1.27 22.86)
+				)
+				(stroke
+					(width 0.508)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "DVI-I"
+				(at 2.54 27.94 0)
+				(effects
+					(font
+						(size 2.032 2.032)
+						(bold yes)
+					)
+				)
+			)
+			(text "Dual Link"
+				(at 2.54 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+)
