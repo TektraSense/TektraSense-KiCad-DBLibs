@@ -40,6 +40,51 @@ This repository is **active and continually updated** as new components are adde
 -   **Access to the TektraSense PostgreSQL database** (which is populated by the `kicad-component-pipeline`).
 -   **PostgreSQL ODBC Driver** installed on your system.
 
+### Installing the PostgreSQL ODBC Driver
+
+KiCad requires an ODBC driver to communicate with a PostgreSQL database. You must install the appropriate driver for your operating system.
+
+---
+#### **macOS**
+The recommended method for macOS is to use [Homebrew](https://brew.sh/).
+
+1.  Open the **Terminal** application.
+2.  Run the following command to install the driver:
+    ```bash
+    brew install psqlodbc
+    ```
+3.  Restart KiCad after the installation is complete.
+
+---
+#### **Windows**
+For Windows, the best method is to use the official MSI installer.
+
+1.  Go to the official PostgreSQL ODBC download page: [https://www.postgresql.org/ftp/odbc/versions/msi/](https://www.postgresql.org/ftp/odbc/versions/msi/)
+2.  Download the latest installer that matches your system architecture (usually **x64** for 64-bit Windows).
+3.  Run the downloaded `.msi` file and follow the on-screen installation steps.
+4.  Restart KiCad after the installation is complete.
+
+---
+### **Linux**
+For Linux, you can install the driver using your distribution's package manager.
+
+* **For Debian-based systems (Ubuntu, Mint, etc.):**
+    ```bash
+    sudo apt update
+    sudo apt install odbc-postgresql
+    ```
+
+* **For Red Hat-based systems (Fedora, CentOS, etc.):**
+    * On modern Fedora:
+        ```bash
+        sudo dnf install postgresql-odbc
+        ```
+    * On older CentOS/RHEL:
+        ```bash
+        sudo yum install postgresql-odbc
+        ```
+* Restart KiCad after the installation is complete.
+
 ### Integration with KiCad
 
 1.  **Clone this repository** to a stable location on your local machine:
