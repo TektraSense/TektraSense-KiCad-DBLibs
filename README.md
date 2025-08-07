@@ -1,6 +1,6 @@
 ![Status](https://img.shields.io/badge/status-in_progress-yellow)
 
-# TektraSense KiCad Database Libraries
+# TektraSense KiLibs
 
 This repository serves as the **centralized and version-controlled home for all KiCad library assets** used in TektraSense hardware projects. It includes a comprehensive collection of symbols, footprints, and associated 3D models, all designed to be used with a database-driven workflow.
 
